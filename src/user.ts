@@ -1,3 +1,6 @@
+export type ProviderId = 'password' | 'custom' | 'anonymous' | 'google.com' | 'facebook.com' | 'twitter.com';
+export type OobMode = 'resetPassword' | 'verifyEmail' | 'none';
+
 export interface UserProfileSettings {
   // prefix by $ means public
   $email?: boolean;
@@ -37,7 +40,8 @@ export interface UserInfo extends UserProfile {
   username?: string;
   emailVerified?: boolean;
   lastLogin?: string;
-  providerId?: string;
+  providerId?: ProviderId;
+  providerData?: any;
   settings?: UserProfileSettings;
   
   // dynamic
@@ -46,13 +50,12 @@ export interface UserInfo extends UserProfile {
 }
 
 export interface UserSecret {
-  providerData?: string;
   password?: string;
   refreshToken?: string;
-  tokenTimestamp?: string;
+  tokenTimestamp?: number;
   oobCode?: string;
-  oobMode?: string;
-  oobTimestamp?: string;
+  oobMode?: OobMode;
+  oobTimestamp?: number;
 }
 
 export interface User extends UserInfo, UserSecret {
