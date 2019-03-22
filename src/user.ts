@@ -35,10 +35,14 @@ export interface UserInfo extends UserProfile {
   // UserProfile
 
   username?: string;
-  emailVerified?: string;
+  emailVerified?: boolean;
   lastLogin?: string;
   providerId?: string;
   settings?: UserProfileSettings;
+  
+  // dynamic
+  isNewUser?: boolean;
+  isAnonymous?: boolean;
 }
 
 export interface UserSecret {
