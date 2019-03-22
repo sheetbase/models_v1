@@ -1,5 +1,5 @@
-export type ProviderId = 'password' | 'custom' | 'anonymous' | 'google.com' | 'facebook.com' | 'twitter.com';
-export type OobMode = 'resetPassword' | 'verifyEmail' | 'none';
+export type UserProviderId = 'password' | 'custom' | 'anonymous' | 'google.com' | 'facebook.com' | 'twitter.com';
+export type UserOobMode = 'resetPassword' | 'verifyEmail' | 'none';
 
 export interface UserProfileSettings {
   // prefix by $ means public
@@ -40,7 +40,7 @@ export interface UserInfo extends UserProfile {
   username?: string;
   emailVerified?: boolean;
   lastLogin?: string;
-  providerId?: ProviderId;
+  providerId?: UserProviderId;
   providerData?: any;
   settings?: UserProfileSettings;
   
@@ -54,7 +54,7 @@ export interface UserSecret {
   refreshToken?: string;
   tokenTimestamp?: number;
   oobCode?: string;
-  oobMode?: OobMode;
+  oobMode?: UserOobMode;
   oobTimestamp?: number;
 }
 
