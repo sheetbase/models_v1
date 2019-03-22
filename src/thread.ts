@@ -1,6 +1,6 @@
 import { UserProfile } from './user';
 
-export interface Message extends UserProfile {
+export interface Thread extends UserProfile {
   '#'?: number;
 
   $key?: string;
