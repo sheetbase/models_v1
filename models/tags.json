@@ -1,0 +1,5 @@
+[
+    { "name": "#", "type": "number", "width": 50 },
+    { "name": "title", "width": 200 },
+    { "name": "$key", "width": 200 }
+]

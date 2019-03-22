@@ -1,0 +1,10 @@
+[
+    { "name": "#", "type": "number", "width": 50 },
+    { "name": "$key", "width": 200 },
+    { "name": "content", "width": 700 },
+    { "name": "createdAt" },
+    { "name": "parentId" },
+    { "name": "uid" },
+    { "name": "displayName" },
+    { "name": "email" }
+]

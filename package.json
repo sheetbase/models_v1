@@ -1,0 +1,35 @@
+{
+  "name": "@sheetbase/models",
+  "version": "0.0.1",
+  "description": "Sheetbase commonly used models.",
+  "author": "Sheetbase",
+  "homepage": "https://sheetbase.net",
+  "license": "MIT",
+  "files": [
+    "models",
+    "dist"
+  ],
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "keywords": [
+    "google-apps-script",
+    "sheetbase",
+    "google-spreadsheet",
+    "typescript",
+    "model"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sheetbase/models.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sheetbase/models/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.4000"
+  }
+}

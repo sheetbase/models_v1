@@ -1,0 +1,18 @@
+[
+    { "name": "#", "type": "number", "width": 50 },
+    { "name": "title", "width": 200 },
+    { "name": "$key", "width": 200 },
+    { "name": "createdAt" },
+    { "name": "updatedAt" },
+    { "name": "author", "type": "object", "width": 200 },
+    { "name": "excerpt", "width": 300 },
+    { "name": "thumbnail", "width": 300 },
+    { "name": "image", "width": 300 },
+    { "name": "duration", "type": "number" },
+    { "name": "likeCount", "type": "number" },
+    { "name": "content", "width": 700 },
+    { "name": "type" },
+    { "name": "status" },
+    { "name": "categories", "type": "object", "width": 300 },
+    { "name": "tags", "type": "object", "width": 300 }
+]

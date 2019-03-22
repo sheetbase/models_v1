@@ -1,0 +1,20 @@
+[
+    { "name": "#", "type": "number", "width": 50 },
+    { "name": "$key", "width": 200 },
+    { "name": "status" },
+    { "name": "items", "type": "object", "width": 500 },
+    { "name": "createdAt" },
+    { "name": "count", "type": "number" },
+    { "name": "total", "type": "number" },
+    { "name": "subtotal", "type": "number" },
+    { "name": "discountTotal", "type": "number" },
+    { "name": "uid", "width": 200 },
+    { "name": "displayName", "width": 200 },
+    { "name": "email", "width": 200 },
+    { "name": "phoneNumber", "width": 200 },
+    { "name": "address", "width": 200 },
+    { "name": "transactionId", "width": 200 },
+    { "name": "adjustments", "type": "object", "width": 300 },
+    { "name": "discountData", "type": "object", "width": 300 },
+    { "name": "note", "width": 500 }
+]
