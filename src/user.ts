@@ -1,4 +1,4 @@
-export type UserProviderId = 'password' | 'custom' | 'anonymous' | 'google.com' | 'facebook.com' | 'twitter.com';
+export type UserProviderId = 'password' | 'custom' | 'anonymous' | 'google.com' | 'facebook.com';
 export type UserOobMode = 'resetPassword' | 'verifyEmail' | 'none';
 
 export interface UserProfileSettings {
@@ -22,7 +22,7 @@ export interface UserEditableProfile {
 export interface UserProfile extends UserEditableProfile {
 
   // UserEditableProfile
-  
+
   uid?: string;
   createdAt?: string;
   email?: string;
@@ -32,18 +32,16 @@ export interface UserProfile extends UserEditableProfile {
   };
 }
 
-
 export interface UserInfo extends UserProfile {
-  
+
   // UserProfile
 
   username?: string;
   emailVerified?: boolean;
   lastLogin?: string;
   providerId?: UserProviderId;
-  providerData?: any;
   settings?: UserProfileSettings;
-  
+
   // dynamic
   isNewUser?: boolean;
   isAnonymous?: boolean;

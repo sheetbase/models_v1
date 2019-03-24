@@ -16,7 +16,6 @@
     { "name": "additionalData", "type": "object", "width": 300 },
     { "name": "claims", "type": "object", "width": 200 },
     { "name": "settings", "type": "object", "width": 300 },
-    { "name": "providerData", "type": "object", "width": 300 },
     { "name": "password" },
     { "name": "refreshToken" },
     { "name": "tokenTimestamp", "type": "number" },
