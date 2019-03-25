@@ -10,6 +10,7 @@
     { "name": "image", "width": 300 },
     { "name": "duration", "type": "number" },
     { "name": "likeCount", "type": "number" },
+    { "name": "contentSource", "width": 300 },
     { "name": "content", "width": 700 },
     { "name": "type" },
     { "name": "status" },

@@ -2,7 +2,7 @@ import { UserProfile } from './user';
 
 export interface Post {
   '#'?: number;
-  
+
   title: string;
   $key?: string;
 
@@ -14,6 +14,7 @@ export interface Post {
   image?: string;
   duration?: number;
   likeCount?: number;
+  contentSource?: string;
   content?: string;
   type?: string;
   status?: 'draft' | 'published' | 'archived';
