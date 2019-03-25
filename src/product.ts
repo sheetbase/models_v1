@@ -29,7 +29,7 @@ export interface ProductShipping {
 
 export interface Product {
   '#'?: number;
-  
+
   title: string;
   $key?: string;
   sku: string;
@@ -42,6 +42,7 @@ export interface Product {
   thumbnail?: string;
   image?: string;
   slideshow?: Post[];
+  contentSource?: string;
   content?: string;
   brand?: string;
   birthday?: string;

@@ -3,5 +3,6 @@
     { "name": "title", "width": 200 },
     { "name": "$key", "width": 200 },
     { "name": "image", "width": 300 },
+    { "name": "contentSource", "width": 300 },
     { "name": "content", "width": 700 }
 ]

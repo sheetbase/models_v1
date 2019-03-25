@@ -11,6 +11,7 @@
     { "name": "thumbnail", "width": 300 },
     { "name": "image", "width": 300 },
     { "name": "slideshow", "width": 300 },
+    { "name": "contentSource", "width": 300 },
     { "name": "content", "width": 500 },
     { "name": "brand" },
     { "name": "birthday" },
