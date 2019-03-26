@@ -1,7 +1,7 @@
 export interface Message {
   '#'?: number;
   email: string;
-  $key: string;
+  $key?: string;
   message: string;
   createdAt?: string;
   name?: string;

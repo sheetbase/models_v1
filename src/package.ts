@@ -2,7 +2,7 @@ export interface Package {
   '#'?: number;
   title: string;
   $key?: string;
-  sku?: string;
+  sku: string;
   price: number;
   thumbnail?: string;
   description?: string;
