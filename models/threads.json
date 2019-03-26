@@ -3,7 +3,8 @@
     { "name": "$key", "width": 200 },
     { "name": "content", "width": 700 },
     { "name": "createdAt" },
-    { "name": "parentId" },
+    { "name": "parent" },
+    { "name": "master" },
     { "name": "uid" },
     { "name": "displayName" },
     { "name": "email" }

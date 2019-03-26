@@ -5,9 +5,10 @@ export interface Thread extends UserProfile {
 
   $key?: string;
   content: string;
-  
+
   createdAt?: string;
-  parentId?: string;
+  parent?: string;
+  master?: string;
 
   // UserProfile
   // uid, displayName, email
