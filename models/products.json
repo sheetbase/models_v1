@@ -12,7 +12,7 @@
     { "name": "image", "width": 300 },
     { "name": "slideshow", "width": 300 },
     { "name": "contentSource", "width": 300 },
-    { "name": "content", "width": 500 },
+    { "name": "content", "width": 700 },
     { "name": "brand" },
     { "name": "birthday" },
     { "name": "country" },

@@ -29,10 +29,25 @@ Name is ordered alphabetically.
 - [JSON](https://github.com/sheetbase/models/blob/master/models/categories.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/category.ts)
 
+### Messages
+
+- [JSON](https://github.com/sheetbase/models/blob/master/models/messages.json)
+- [Types](https://github.com/sheetbase/models/blob/master/src/message.ts)
+
+### Notifications
+
+- [JSON](https://github.com/sheetbase/models/blob/master/models/notifications.json)
+- [Types](https://github.com/sheetbase/models/blob/master/src/notification.ts)
+
 ### Orders
 
 - [JSON](https://github.com/sheetbase/models/blob/master/models/orders.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/order.ts)
+
+### Packages
+
+- [JSON](https://github.com/sheetbase/models/blob/master/models/packages.json)
+- [Types](https://github.com/sheetbase/models/blob/master/src/package.ts)
 
 ### Pages
 
@@ -48,6 +63,11 @@ Name is ordered alphabetically.
 
 - [JSON](https://github.com/sheetbase/models/blob/master/models/products.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/product.ts)
+
+### Requests
+
+- [JSON](https://github.com/sheetbase/models/blob/master/models/requests.json)
+- [Types](https://github.com/sheetbase/models/blob/master/src/request.ts)
 
 ### Tags
 

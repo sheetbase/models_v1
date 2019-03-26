@@ -1,0 +1,13 @@
+[
+    { "name": "#", "type": "number", "width": 50 },
+    { "name": "email", "width": 200 },
+    { "name": "$key", "width": 200 },
+    { "name": "createdAt", "width": 200 },
+    { "name": "name", "width": 200 },
+    { "name": "tel", "width": 200 },
+    { "name": "value", "type": "number" },
+    { "name": "adjustments", "width": 500 },
+    { "name": "transactionId", "width": 300 },
+    { "name": "item", "width": 500 },
+    { "name": "note", "width": 500 }
+]

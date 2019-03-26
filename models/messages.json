@@ -1,0 +1,9 @@
+[
+    { "name": "#", "type": "number", "width": 50 },
+    { "name": "email", "width": 200 },
+    { "name": "$key", "width": 200 },
+    { "name": "message", "width": 700 },
+    { "name": "createdAt", "width": 200 },
+    { "name": "name", "width": 200 },
+    { "name": "tel", "width": 200 }
+]

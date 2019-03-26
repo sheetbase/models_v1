@@ -1,0 +1,11 @@
+[
+    { "name": "#", "type": "number", "width": 50 },
+    { "name": "title", "width": 200 },
+    { "name": "$key", "width": 200 },
+    { "name": "sku" },
+    { "name": "price", "type": "number" },
+    { "name": "thumbnail", "width": 300 },    
+    { "name": "description", "width": 300 },
+    { "name": "summary", "width": 500 },
+    { "name": "content", "width": 700 }
+]
