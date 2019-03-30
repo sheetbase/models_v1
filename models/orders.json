@@ -1,4 +1,6 @@
-[
+{
+  "gid": 8,
+  "schema": [
     { "name": "#", "type": "number", "width": 50 },
     { "name": "$key", "width": 200 },
     { "name": "status" },
@@ -17,4 +19,5 @@
     { "name": "adjustments", "type": "object", "width": 300 },
     { "name": "discountData", "type": "object", "width": 300 },
     { "name": "note", "width": 500 }
-]
+  ]
+}

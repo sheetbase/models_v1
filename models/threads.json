@@ -1,4 +1,7 @@
-[
+{
+  "gid": 5,
+  "public": true,
+  "schema": [
     { "name": "#", "type": "number", "width": 50 },
     { "name": "$key", "width": 200 },
     { "name": "content", "width": 700 },
@@ -8,4 +11,5 @@
     { "name": "uid" },
     { "name": "displayName" },
     { "name": "email" }
-]
+  ]
+}

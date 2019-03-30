@@ -1,4 +1,6 @@
-[
+{
+  "gid": 6,
+  "schema": [
     { "name": "#", "type": "number", "width": 50 },
     { "name": "uid", "width": 200 },
     { "name": "createdAt", "type": "number" },
@@ -22,4 +24,5 @@
     { "name": "oobCode" },
     { "name": "oobMode" },
     { "name": "oobTimestamp", "type": "number" }
-]
+  ]
+}

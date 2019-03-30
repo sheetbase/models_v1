@@ -24,62 +24,62 @@ const post: Post = {};
 
 Name is ordered alphabetically.
 
-### Categories
+### Categories `1` (public)
 
 - [JSON](https://github.com/sheetbase/models/blob/master/models/categories.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/category.ts)
 
-### Messages
+### Messages `11`
 
 - [JSON](https://github.com/sheetbase/models/blob/master/models/messages.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/message.ts)
 
-### Notifications
+### Notifications `12` (public)
 
 - [JSON](https://github.com/sheetbase/models/blob/master/models/notifications.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/notification.ts)
 
-### Orders
+### Orders `8`
 
 - [JSON](https://github.com/sheetbase/models/blob/master/models/orders.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/order.ts)
 
-### Packages
+### Packages `9` (public)
 
 - [JSON](https://github.com/sheetbase/models/blob/master/models/packages.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/package.ts)
 
-### Pages
+### Pages `3` (public)
 
 - [JSON](https://github.com/sheetbase/models/blob/master/models/pages.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/page.ts)
 
-### Posts
+### Posts `4` (public)
 
 - [JSON](https://github.com/sheetbase/models/blob/master/models/posts.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/post.ts)
 
-### Products
+### Products `7` (public)
 
 - [JSON](https://github.com/sheetbase/models/blob/master/models/products.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/product.ts)
 
-### Requests
+### Requests `10`
 
 - [JSON](https://github.com/sheetbase/models/blob/master/models/requests.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/request.ts)
 
-### Tags
+### Tags `2` (public)
 
 - [JSON](https://github.com/sheetbase/models/blob/master/models/tags.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/tag.ts)
 
-### Threads
+### Threads `5` (public)
 
 - [JSON](https://github.com/sheetbase/models/blob/master/models/threads.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/thread.ts)
 
-### Users
+### Users `6`
 
 - [JSON](https://github.com/sheetbase/models/blob/master/models/users.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/user.ts)
