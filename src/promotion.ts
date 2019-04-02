@@ -1,4 +1,4 @@
-export interface Promo {
+export interface Promotion {
   '#'?: number;
   $key: string;
   type: string;
