@@ -6,6 +6,7 @@ export * from './package';
 export * from './page';
 export * from './post';
 export * from './product';
+export * from './promotion';
 export * from './request';
 export * from './tag';
 export * from './thread';

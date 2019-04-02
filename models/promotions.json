@@ -1,0 +1,9 @@
+[
+    { "name": "#", "type": "number", "width": 50 },
+    { "name": "$key", "width": 200 },
+    { "name": "type" },
+    { "name": "body", "width": 500 },
+    { "name": "value", "type": "number" },
+    { "name": "description", "width": 300 },
+    { "name": "expiry", "width": 200 }
+]

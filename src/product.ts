@@ -61,4 +61,5 @@ export interface Product {
   tags?: {
     [slug: string]: string;
   };
+  keywords?: string;
 }

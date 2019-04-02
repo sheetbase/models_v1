@@ -8,6 +8,7 @@
     { "name": "createdAt" },
     { "name": "link", "width": 300 },
     { "name": "thumbnail", "width": 300 },
-    { "name": "content", "width": 700 }
+    { "name": "content", "width": 700 },
+    { "name": "expiry", "width": 200 }
   ]
 }
