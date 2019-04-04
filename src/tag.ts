@@ -1,6 +1,6 @@
 export interface Tag {
   '#'?: number;
-  
-  title: string;
   $key?: string;
+
+  title: string;
 }

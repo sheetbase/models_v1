@@ -58,9 +58,9 @@ export interface UserSecret {
 
 export interface User extends UserInfo, UserSecret {
   '#'?: number;
+  $key?: string;
 
   uid: string;
-  $key?: string;
 
   // UserInfo
 

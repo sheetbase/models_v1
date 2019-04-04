@@ -29,9 +29,9 @@ export interface ProductShipping {
 
 export interface Product {
   '#'?: number;
+  $key?: string;
 
   title: string;
-  $key?: string;
   sku: string;
   unit: string;
   price: number;
@@ -55,11 +55,11 @@ export interface Product {
   rating?: ProductRating;
   shipping?: ProductShipping;
   status?: 'instock' | 'outstock' | 'archived';
+  keywords?: string;
   categories?: {
     [slug: string]: string;
   };
   tags?: {
     [slug: string]: string;
   };
-  keywords?: string;
 }

@@ -2,9 +2,9 @@ import { UserProfile } from './user';
 
 export interface Post {
   '#'?: number;
+  $key?: string;
 
   title: string;
-  $key?: string;
 
   createdAt?: string;
   updatedAt?: string;
@@ -18,11 +18,11 @@ export interface Post {
   content?: string;
   type?: string;
   status?: 'draft' | 'published' | 'archived';
+  keywords?: string;
   categories?: {
     [slug: string]: string;
   };
   tags?: {
     [slug: string]: string;
   };
-  keywords?: string;
 }

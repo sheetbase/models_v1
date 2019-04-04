@@ -30,22 +30,26 @@ export interface OrderAdjustment {
 
 export interface Order extends UserProfile {
   '#'?: number;
-
   $key?: string;
+
   status: 'new' | 'confirmed' | 'delivering' | 'done' | 'cancelled' | 'archived';
   items: {
     [key: string]: OrderItem;
   };
-  
+
   createdAt?: string;
   count?: number;
   total?: number;
   subtotal?: number;
   discountTotal?: number;
-  
+
   // UserProfile
-  // uid, displayName, email, phoneNumber, address
-  
+  // uid
+  // displayName
+  // email
+  // phoneNumber
+  // address
+
   transactionId?: string;
   adjustments?: OrderAdjustment[];
   discountData?: {

@@ -1,8 +1,8 @@
 export interface Page {
   '#'?: number;
+  $key?: string;
 
   title: string;
-  $key?: string;
 
   image?: string;
   contentSource?: string;

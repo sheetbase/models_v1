@@ -1,8 +1,8 @@
 export interface Category {
   '#'?: number;
-  
-  title: string;
   $key?: string;
+
+  title: string;
 
   description?: string;
   thumbnail?: string;

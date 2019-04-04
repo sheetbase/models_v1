@@ -1,5 +1,5 @@
 {
-  "gid": 4,
+  "gid": 104,
   "public": true,
   "schema": [
     { "name": "#", "type": "number", "width": 50 },

@@ -24,63 +24,90 @@ const post: Post = {};
 
 Name is ordered alphabetically.
 
-### Categories `1` (public)
+### Categories
 
+- GID: `101`
+- Public
 - [JSON](https://github.com/sheetbase/models/blob/master/models/categories.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/category.ts)
 
-### Messages `11`
+### Messages
 
+- GID: `111`
 - [JSON](https://github.com/sheetbase/models/blob/master/models/messages.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/message.ts)
 
-### Notifications `12` (public)
+### Notifications
 
+- GID: `112`
+- Public
 - [JSON](https://github.com/sheetbase/models/blob/master/models/notifications.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/notification.ts)
 
-### Orders `8`
+### Orders
 
+- GID: `108`
 - [JSON](https://github.com/sheetbase/models/blob/master/models/orders.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/order.ts)
 
-### Packages `9` (public)
+### Packages
 
+- GID: `109`
+- Public
 - [JSON](https://github.com/sheetbase/models/blob/master/models/packages.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/package.ts)
 
-### Pages `3` (public)
+### Pages
 
+- GID: `103`
+- Public
 - [JSON](https://github.com/sheetbase/models/blob/master/models/pages.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/page.ts)
 
-### Posts `4` (public)
+### Posts
 
+- GID: `104`
+- Public
 - [JSON](https://github.com/sheetbase/models/blob/master/models/posts.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/post.ts)
 
-### Products `7` (public)
+### Products
 
+- GID: `107`
+- Public
 - [JSON](https://github.com/sheetbase/models/blob/master/models/products.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/product.ts)
 
-### Requests `10`
+### Promotions
 
+- GID: `113`
+- Public
+- [JSON](https://github.com/sheetbase/models/blob/master/models/promotions.json)
+- [Types](https://github.com/sheetbase/models/blob/master/src/promotion.ts)
+
+### Requests
+
+- GID: `110`
 - [JSON](https://github.com/sheetbase/models/blob/master/models/requests.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/request.ts)
 
-### Tags `2` (public)
+### Tags
 
+- GID: `102`
+- Public
 - [JSON](https://github.com/sheetbase/models/blob/master/models/tags.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/tag.ts)
 
-### Threads `5` (public)
+### Threads
 
+- GID: `105`
+- Public
 - [JSON](https://github.com/sheetbase/models/blob/master/models/threads.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/thread.ts)
 
-### Users `6`
+### Users
 
+- GID: `106`
 - [JSON](https://github.com/sheetbase/models/blob/master/models/users.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/user.ts)
 

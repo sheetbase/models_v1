@@ -12,8 +12,10 @@ export interface RequestAdjustment {
 
 export interface Request {
   '#'?: number;
-  email: string;
   $key?: string;
+
+  email: string;
+
   createdAt?: string;
   name?: string;
   tel?: string;
