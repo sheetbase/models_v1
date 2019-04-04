@@ -8,6 +8,8 @@ export interface Notification {
   link?: string;
   thumbnail?: string;
   content?: string;
+  expiry?: string;
+
   // dynamic
   read?: boolean;
 }
