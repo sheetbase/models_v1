@@ -25,8 +25,8 @@
     { "name": "rating", "type": "object", "width": 300 },
     { "name": "shipping", "type": "object", "width": 300 },
     { "name": "status" },
+    { "name": "keywords", "width": 300 },
     { "name": "categories", "width": 300 },
-    { "name": "tags", "width": 300 },
-    { "name": "keywords", "width": 300 }
+    { "name": "tags", "width": 300 }
   ]
 }
