@@ -62,4 +62,5 @@ export interface Product {
   tags?: {
     [slug: string]: string;
   };
+  meta?: any;
 }

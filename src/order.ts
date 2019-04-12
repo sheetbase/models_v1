@@ -56,4 +56,5 @@ export interface Order extends UserProfile {
     [by: string]: OrderDiscount;
   };
   note?: string;
+  meta?: any;
 }

@@ -25,4 +25,5 @@ export interface Post {
   tags?: {
     [slug: string]: string;
   };
+  meta?: any;
 }

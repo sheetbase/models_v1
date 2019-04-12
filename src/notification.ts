@@ -9,7 +9,5 @@ export interface Notification {
   thumbnail?: string;
   content?: string;
   expiry?: string;
-
-  // dynamic
-  read?: boolean;
+  meta?: any;
 }

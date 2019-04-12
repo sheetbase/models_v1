@@ -3,4 +3,5 @@ export interface Tag {
   $key?: string;
 
   title: string;
+  count?: number;
 }

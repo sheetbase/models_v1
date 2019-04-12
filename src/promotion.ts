@@ -8,4 +8,5 @@ export interface Promotion {
   expiry: string;
 
   description?: string;
+  meta?: any;
 }

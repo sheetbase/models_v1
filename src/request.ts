@@ -24,4 +24,5 @@ export interface Request {
   transactionId?: string;
   item?: RequestItem;
   note?: string;
+  meta?: any;
 }

@@ -14,4 +14,6 @@ export interface Thread extends UserProfile {
   // uid
   // displayName
   // email
+
+  meta?: any;
 }

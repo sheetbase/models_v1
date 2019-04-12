@@ -8,4 +8,5 @@ export interface Category {
   thumbnail?: string;
   count?: number;
   only?: string;
+  meta?: any;
 }

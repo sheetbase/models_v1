@@ -8,4 +8,5 @@ export interface Message {
   createdAt?: string;
   name?: string;
   tel?: string;
+  meta?: any;
 }
