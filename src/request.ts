@@ -1,13 +1,9 @@
+import { OrderAdjustment } from './order';
+
 export interface RequestItem {
   title: string;
   sku: string;
   price: number;
-}
-
-export interface RequestAdjustment {
-  reason: string;
-  at: string;
-  value: number;
 }
 
 export interface Request {
@@ -15,17 +11,17 @@ export interface Request {
   $key?: string;
 
   item: RequestItem;
+  value: number;
 
+  uid?: string;
   email?: string;
-  name?: string;
-  tel?: string;
+  displayName?: string;
+  phoneNumber?: string;
 
   createdAt?: string;
-  value?: number;
-
   paymentType?: string;
   transactionId?: string;
-  adjustments?: RequestAdjustment[];
+  adjustments?: OrderAdjustment[];
   note?: string;
   meta?: any;
 }
