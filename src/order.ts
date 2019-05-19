@@ -43,12 +43,11 @@ export interface Order extends UserProfile {
   subtotal?: number;
   discountTotal?: number;
 
-  // UserProfile
-  // uid
-  // displayName
-  // email
-  // phoneNumber
-  // address
+  uid?: string;
+  email?: string;
+  displayName?: string;
+  phoneNumber?: string;
+  address?: string;
 
   paymentType?: string;
   transactionId?: string;

@@ -14,16 +14,18 @@ export interface Request {
   '#'?: number;
   $key?: string;
 
-  email: string;
+  item: RequestItem;
 
-  createdAt?: string;
+  email?: string;
   name?: string;
   tel?: string;
+
+  createdAt?: string;
   value?: number;
-  adjustments?: RequestAdjustment[];
+
   paymentType?: string;
   transactionId?: string;
-  item?: RequestItem;
+  adjustments?: RequestAdjustment[];
   note?: string;
   meta?: any;
 }
