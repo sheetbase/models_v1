@@ -10,10 +10,9 @@ export interface Thread extends UserProfile {
   parent?: string;
   master?: string;
 
-  // UserProfile
-  // uid
-  // displayName
-  // email
+  uid?: string;
+  email?: string;
+  displayName?: string;
 
   meta?: any;
 }
