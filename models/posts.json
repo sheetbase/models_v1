@@ -19,6 +19,7 @@
     { "name": "status" },
     { "name": "keywords", "width": 300 },
     { "name": "categories", "type": "object", "width": 300 },
-    { "name": "tags", "type": "object", "width": 300 }
+    { "name": "tags", "type": "object", "width": 300 },
+    { "name": "meta", "width": 300 }
   ]
 }

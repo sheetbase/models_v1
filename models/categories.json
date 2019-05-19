@@ -8,6 +8,7 @@
     { "name": "description", "width": 500 },
     { "name": "thumbnail", "width": 300 },
     { "name": "count", "type": "number" },
-    { "name": "only" }
+    { "name": "only" },
+    { "name": "meta", "width": 300 }
   ]
 }

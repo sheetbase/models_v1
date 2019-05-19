@@ -7,6 +7,7 @@
     { "name": "message", "width": 700 },
     { "name": "createdAt", "width": 200 },
     { "name": "name", "width": 200 },
-    { "name": "tel", "width": 200 }
+    { "name": "tel", "width": 200 },
+    { "name": "meta", "width": 300 }
   ]
 }

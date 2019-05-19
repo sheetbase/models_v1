@@ -18,6 +18,7 @@
     { "name": "transactionId", "width": 200 },
     { "name": "adjustments", "type": "object", "width": 300 },
     { "name": "discountData", "type": "object", "width": 300 },
-    { "name": "note", "width": 500 }
+    { "name": "note", "width": 500 },
+    { "name": "meta", "width": 300 }
   ]
 }

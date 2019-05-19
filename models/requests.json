@@ -11,6 +11,7 @@
     { "name": "adjustments", "width": 500 },
     { "name": "transactionId", "width": 300 },
     { "name": "item", "width": 500 },
-    { "name": "note", "width": 500 }
+    { "name": "note", "width": 500 },
+    { "name": "meta", "width": 300 }
   ]
 }

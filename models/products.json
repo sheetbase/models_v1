@@ -28,6 +28,7 @@
     { "name": "status" },
     { "name": "keywords", "width": 300 },
     { "name": "categories", "width": 300 },
-    { "name": "tags", "width": 300 }
+    { "name": "tags", "width": 300 },
+    { "name": "meta", "width": 300 }
   ]
 }

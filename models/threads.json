@@ -10,6 +10,7 @@
     { "name": "master" },
     { "name": "uid" },
     { "name": "displayName" },
-    { "name": "email" }
+    { "name": "email" },
+    { "name": "meta", "width": 300 }
   ]
 }
