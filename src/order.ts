@@ -1,11 +1,11 @@
 import { UserProfile } from './user';
 
 export interface OrderProduct {
+  key: string;
   title: string;
   sku: string;
   price: number;
 
-  slug?: string;
   unit?: string;
   thumbnail?: string;
 }
@@ -17,9 +17,8 @@ export interface OrderItem {
 }
 
 export interface OrderDiscount {
-  type: string;
+  title: string;
   value: number;
-  identity: string;
 }
 
 export interface OrderAdjustment {
@@ -53,7 +52,7 @@ export interface Order extends UserProfile {
   transactionId?: string;
   adjustments?: OrderAdjustment[];
   discountData?: {
-    [by: string]: OrderDiscount;
+    [type: string]: OrderDiscount;
   };
   note?: string;
   meta?: any;

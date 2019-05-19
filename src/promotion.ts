@@ -2,11 +2,11 @@ export interface Promotion {
   '#'?: number;
   $key?: string;
 
+  title: string;
   type: string;
-  body: string;
   value: number;
+  body: string;
   expiry: string;
 
-  description?: string;
   meta?: any;
 }
