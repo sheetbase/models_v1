@@ -13,7 +13,9 @@ export interface Post {
   thumbnail?: string;
   image?: string;
   duration?: number;
+  viewCount?: number;
   likeCount?: number;
+  commentCount?: number;
   contentSource?: string;
   content?: string;
   type?: string;

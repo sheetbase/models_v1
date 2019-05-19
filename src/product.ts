@@ -52,7 +52,9 @@ export interface Product {
   variations?: {
     [name: string]: ProductVariation;
   };
+  viewCount?: number;
   likeCount?: number;
+  commentCount?: number;
   rating?: ProductRating;
   shipping?: ProductShipping;
   status?: 'instock' | 'outstock' | 'archived';
