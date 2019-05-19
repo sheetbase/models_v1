@@ -8,7 +8,7 @@ export interface Post {
 
   createdAt?: string;
   updatedAt?: string;
-  author?: UserProfile;
+  author?: string | UserProfile;
   excerpt?: string;
   thumbnail?: string;
   image?: string;
@@ -22,7 +22,7 @@ export interface Post {
   categories?: {
     [slug: string]: string;
   };
-  tags?: {
+  tags?: string | {
     [slug: string]: string;
   };
   meta?: any;

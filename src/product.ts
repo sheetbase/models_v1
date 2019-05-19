@@ -60,7 +60,7 @@ export interface Product {
   categories?: {
     [slug: string]: string;
   };
-  tags?: {
+  tags?: string | {
     [slug: string]: string;
   };
   meta?: any;
