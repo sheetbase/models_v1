@@ -50,6 +50,7 @@ export interface Order extends UserProfile {
   // phoneNumber
   // address
 
+  paymentType?: string;
   transactionId?: string;
   adjustments?: OrderAdjustment[];
   discountData?: {

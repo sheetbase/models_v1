@@ -21,6 +21,7 @@ export interface Request {
   tel?: string;
   value?: number;
   adjustments?: RequestAdjustment[];
+  paymentType?: string;
   transactionId?: string;
   item?: RequestItem;
   note?: string;

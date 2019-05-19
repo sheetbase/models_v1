@@ -15,6 +15,7 @@
     { "name": "email", "width": 200 },
     { "name": "phoneNumber", "width": 200 },
     { "name": "address", "width": 200 },
+    { "name": "paymentType" },
     { "name": "transactionId", "width": 200 },
     { "name": "adjustments", "type": "object", "width": 300 },
     { "name": "discountData", "type": "object", "width": 300 },

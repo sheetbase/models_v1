@@ -9,6 +9,7 @@
     { "name": "tel", "width": 200 },
     { "name": "value", "type": "number" },
     { "name": "adjustments", "width": 500 },
+    { "name": "paymentType" },
     { "name": "transactionId", "width": 300 },
     { "name": "item", "width": 500 },
     { "name": "note", "width": 500 },
