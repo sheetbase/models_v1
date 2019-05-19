@@ -44,6 +44,7 @@ export interface Product {
   slideshow?: Post[];
   contentSource?: string;
   content?: string;
+  type?: string;
   brand?: string;
   birthday?: string;
   country?: string;
