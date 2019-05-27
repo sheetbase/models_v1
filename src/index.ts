@@ -11,3 +11,6 @@ export * from './request';
 export * from './tag';
 export * from './thread';
 export * from './user';
+export * from './audio';
+export * from './video';
+export * from './bundle';

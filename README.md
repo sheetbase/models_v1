@@ -96,6 +96,24 @@ const post: Post = {};
 - [Schema](https://github.com/sheetbase/models/blob/master/models/promotions.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/promotion.ts)
 
+### Audios `114`
+
+- Public
+- [Schema](https://github.com/sheetbase/models/blob/master/models/audios.json)
+- [Types](https://github.com/sheetbase/models/blob/master/src/audio.ts)
+
+### Videos `115`
+
+- Public
+- [Schema](https://github.com/sheetbase/models/blob/master/models/videos.json)
+- [Types](https://github.com/sheetbase/models/blob/master/src/video.ts)
+
+### Bundles `116`
+
+- Public
+- [Schema](https://github.com/sheetbase/models/blob/master/models/bundles.json)
+- [Types](https://github.com/sheetbase/models/blob/master/src/bundle.ts)
+
 ## Lisence
 
 Sheetbase Models is released under the [MIT](https://github.com/sheetbase/models/blob/master/LICENSE) license.
