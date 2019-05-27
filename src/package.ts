@@ -10,5 +10,7 @@ export interface Package {
   description?: string;
   summary?: string | Array<{ text: string, included?: true, excluded?: true }>;
   content?: string;
+  locale?: string;
+  origin?: string;
   meta?: any;
 }

@@ -61,6 +61,8 @@ export interface Product {
   rating?: ProductRating;
   shipping?: ProductShipping;
   status?: 'instock' | 'outstock' | 'archived';
+  locale?: string;
+  origin?: string;
   keywords?: string;
   categories?: {
     [slug: string]: string;

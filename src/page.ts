@@ -7,5 +7,7 @@ export interface Page {
   image?: string;
   contentSource?: string;
   content?: string;
+  locale?: string;
+  origin?: string;
   meta?: any;
 }

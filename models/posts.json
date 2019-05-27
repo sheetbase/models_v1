@@ -20,6 +20,8 @@
     { "name": "parents", "type": "object", "width": 300 },
     { "name": "type" },
     { "name": "status" },
+    { "name": "locale" },
+    { "name": "origin" },
     { "name": "keywords", "width": 300 },
     { "name": "categories", "type": "object", "width": 300 },
     { "name": "tags", "type": "object", "width": 300 },

@@ -11,6 +11,8 @@
     { "name": "description", "width": 300 },
     { "name": "summary", "width": 500 },
     { "name": "content", "width": 700 },
+    { "name": "locale" },
+    { "name": "origin" },
     { "name": "meta", "width": 300 }
   ]
 }

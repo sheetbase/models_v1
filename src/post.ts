@@ -23,6 +23,8 @@ export interface Post {
     [$key: string]: any;
   };
   status?: 'draft' | 'published' | 'archived';
+  locale?: string;
+  origin?: string;
   keywords?: string;
   categories?: {
     [slug: string]: string;

@@ -29,6 +29,8 @@
     { "name": "rating", "type": "object", "width": 300 },
     { "name": "shipping", "type": "object", "width": 300 },
     { "name": "status" },
+    { "name": "locale" },
+    { "name": "origin" },
     { "name": "keywords", "width": 300 },
     { "name": "categories", "width": 300 },
     { "name": "tags", "width": 300 },
