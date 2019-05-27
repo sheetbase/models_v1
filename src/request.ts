@@ -1,16 +1,10 @@
 import { Ids, Extras } from './_shared';
-import { OrderAdjustment } from './order';
-
-export interface RequestItem {
-  title: string;
-  sku: string;
-  price: number;
-}
+import { OrderProduct, OrderAdjustment } from './order';
 
 export interface Request extends Ids, Extras {
   // Ids
 
-  item: RequestItem;
+  item: OrderProduct;
   value: number;
 
   uid?: string;

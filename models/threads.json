@@ -4,13 +4,13 @@
   "schema": [
     { "name": "#", "type": "number", "width": 50 },
     { "name": "$key", "width": 200 },
-    { "name": "content", "width": 700 },
     { "name": "createdAt" },
+    { "name": "uid" },
+    { "name": "email" },
+    { "name": "displayName" },
     { "name": "parent" },
     { "name": "master" },
-    { "name": "uid" },
-    { "name": "displayName" },
-    { "name": "email" },
-    { "name": "meta", "width": 300 }
+    { "name": "content", "width": 700 },
+    { "name": "meta", "type": "object", "width": 500 }
   ]
 }

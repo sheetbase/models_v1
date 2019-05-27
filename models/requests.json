@@ -4,16 +4,16 @@
     { "name": "#", "type": "number", "width": 50 },
     { "name": "email", "width": 200 },
     { "name": "$key", "width": 200 },
-    { "name": "item", "width": 500 },
-    { "name": "value", "type": "number" },
+    { "name": "createdAt", "width": 200 },
     { "name": "uid", "width": 200 },
     { "name": "displayName", "width": 200 },
     { "name": "phoneNUmber", "width": 200 },
-    { "name": "createdAt", "width": 200 },
+    { "name": "item", "width": 500 },
+    { "name": "value", "type": "number" },
     { "name": "paymentType" },
     { "name": "transactionId", "width": 300 },
     { "name": "adjustments", "width": 500 },
     { "name": "note", "width": 500 },
-    { "name": "meta", "width": 300 }
+    { "name": "meta", "type": "object", "width": 500 }
   ]
 }

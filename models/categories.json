@@ -9,6 +9,6 @@
     { "name": "thumbnail", "width": 300 },
     { "name": "count", "type": "number" },
     { "name": "only" },
-    { "name": "meta", "width": 300 }
+    { "name": "meta", "type": "object", "width": 500 }
   ]
 }

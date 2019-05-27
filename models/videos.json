@@ -26,6 +26,6 @@
     { "name": "viewCount", "type": "number" },
     { "name": "likeCount", "type": "number" },
     { "name": "commentCount", "type": "number" },
-    { "name": "meta", "width": 500 }
+    { "name": "meta", "type": "object", "width": 500 }
   ]
 }

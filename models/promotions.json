@@ -9,6 +9,6 @@
     { "name": "body", "width": 500 },
     { "name": "value", "type": "number" },
     { "name": "expiry", "width": 200 },
-    { "name": "meta", "width": 300 }
+    { "name": "meta", "type": "object", "width": 500 }
   ]
 }

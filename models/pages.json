@@ -10,6 +10,6 @@
     { "name": "content", "width": 700 },
     { "name": "locale" },
     { "name": "origin" },
-    { "name": "meta", "width": 300 }
+    { "name": "meta", "type": "object", "width": 500 }
   ]
 }
