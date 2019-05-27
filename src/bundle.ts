@@ -11,6 +11,9 @@ export interface Bundle extends Ids, Authors, Images, Taxonomies, Statistics, Ex
   description?: string;
   content?: string;
   type?: string;
+  relationships?: {
+    [to: string]: any; // { "posts/post-1": ... }
+  };
   keywords?: string;
   // Taxonomies
   // Statistics

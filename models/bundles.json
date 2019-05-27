@@ -12,6 +12,7 @@
     { "name": "description", "width": 300 },
     { "name": "content", "width": 700 },
     { "name": "type" },
+    { "name": "relationships", "type": "object", "width": 300 },
     { "name": "keywords", "width": 300 },
     { "name": "categories", "type": "object", "width": 300 },
     { "name": "tags", "type": "object", "width": 300 },

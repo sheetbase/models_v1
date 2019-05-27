@@ -21,7 +21,12 @@ export interface Video extends Ids, Authors, Images, Taxonomies, Statistics, Ext
   locale?: string;
   origin?: string;
   type?: string;
-  props?: any;
+  props?: {
+    [prop: string]: any;
+  };
+  relationships?: {
+    [to: string]: any; // { "posts/post-1": ... }
+  };
   keywords?: string;
   // Taxonomies
   // Statistics

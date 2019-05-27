@@ -59,6 +59,9 @@ export interface Product extends Ids, Images, Taxonomies, Statistics, Extras {
   status?: 'instock' | 'outstock' | 'archived';
   locale?: string;
   origin?: string;
+  relationships?: {
+    [to: string]: any; // { "posts/post-1": ... }
+  };
   keywords?: string;
   // Taxonomies
   // Statistics

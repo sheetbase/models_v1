@@ -20,6 +20,9 @@ export interface Post extends Ids, Authors, Images, Taxonomies, Statistics, Extr
   status?: 'draft' | 'published' | 'archived';
   locale?: string;
   origin?: string;
+  relationships?: {
+    [to: string]: any; // { "posts/post-1": ... }
+  };
   keywords?: string;
   // Taxonomies
   // Statistics

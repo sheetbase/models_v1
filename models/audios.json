@@ -20,6 +20,7 @@
     { "name": "origin" },
     { "name": "type" },
     { "name": "props", "type": "object", "width": 300 },
+    { "name": "relationships", "type": "object", "width": 300 },
     { "name": "keywords", "width": 300 },
     { "name": "genres", "type": "object", "width": 300 },
     { "name": "categories", "type": "object", "width": 300 },

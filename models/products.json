@@ -31,6 +31,7 @@
     { "name": "status" },
     { "name": "locale" },
     { "name": "origin" },
+    { "name": "relationships", "type": "object", "width": 300 },
     { "name": "keywords", "width": 300 },
     { "name": "categories", "width": 300 },
     { "name": "tags", "width": 300 },
