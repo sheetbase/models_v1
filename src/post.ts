@@ -19,6 +19,9 @@ export interface Post {
   contentSource?: string;
   content?: string;
   type?: string;
+  parents?: {
+    [$key: string]: any;
+  };
   status?: 'draft' | 'published' | 'archived';
   keywords?: string;
   categories?: {

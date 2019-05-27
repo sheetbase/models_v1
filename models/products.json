@@ -16,6 +16,7 @@
     { "name": "slideshow", "width": 300 },
     { "name": "contentSource", "width": 300 },
     { "name": "content", "width": 700 },
+    { "name": "parents", "type": "object", "width": 300 },
     { "name": "type" },
     { "name": "brand" },
     { "name": "birthday" },

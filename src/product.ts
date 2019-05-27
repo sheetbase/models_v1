@@ -44,6 +44,9 @@ export interface Product {
   slideshow?: Post[];
   contentSource?: string;
   content?: string;
+  parents?: {
+    [$key: string]: any;
+  };
   type?: string;
   brand?: string;
   birthday?: string;
