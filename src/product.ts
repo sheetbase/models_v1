@@ -1,3 +1,4 @@
+import { Ids, Images, Taxonomies, Statistics, Extras } from './_shared';
 import { Post } from './post';
 
 export interface ProductVariation {
@@ -27,9 +28,8 @@ export interface ProductShipping {
   class?: string;
 }
 
-export interface Product {
-  '#'?: number;
-  $key?: string;
+export interface Product extends Ids, Images, Taxonomies, Statistics, Extras {
+  // Ids
 
   title: string;
   sku: string;
@@ -37,16 +37,15 @@ export interface Product {
   price: number;
 
   createdAt?: string;
+  // Images
   description?: string;
-  discounted?: number;
-  thumbnail?: string;
-  image?: string;
-  slideshow?: Post[];
   contentSource?: string;
   content?: string;
+  slideshow?: Post[];
   parents?: {
     [$key: string]: any;
   };
+  discounted?: number;
   type?: string;
   brand?: string;
   birthday?: string;
@@ -55,20 +54,13 @@ export interface Product {
   variations?: {
     [name: string]: ProductVariation;
   };
-  viewCount?: number;
-  likeCount?: number;
-  commentCount?: number;
   rating?: ProductRating;
   shipping?: ProductShipping;
   status?: 'instock' | 'outstock' | 'archived';
   locale?: string;
   origin?: string;
   keywords?: string;
-  categories?: {
-    [slug: string]: string;
-  };
-  tags?: string | {
-    [slug: string]: string;
-  };
-  meta?: any;
+  // Taxonomies
+  // Statistics
+  // Extras
 }

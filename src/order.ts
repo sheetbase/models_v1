@@ -1,4 +1,4 @@
-import { UserProfile } from './user';
+import { Ids, Extras } from './_shared';
 
 export interface OrderProduct {
   key: string;
@@ -27,9 +27,8 @@ export interface OrderAdjustment {
   value: number;
 }
 
-export interface Order extends UserProfile {
-  '#'?: number;
-  $key?: string;
+export interface Order extends Ids, Extras {
+  // Ids
 
   status: 'new' | 'confirmed' | 'delivering' | 'done' | 'cancelled' | 'archived';
   items: {
@@ -55,5 +54,5 @@ export interface Order extends UserProfile {
     [type: string]: OrderDiscount;
   };
   note?: string;
-  meta?: any;
+  // Extras
 }

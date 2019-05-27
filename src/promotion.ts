@@ -1,6 +1,7 @@
-export interface Promotion {
-  '#'?: number;
-  $key?: string;
+import { Ids, Extras } from './_shared';
+
+export interface Promotion extends Ids, Extras {
+  // Ids
 
   title: string;
   type: string;
@@ -8,5 +9,5 @@ export interface Promotion {
   body: string;
   expiry: string;
 
-  meta?: any;
+  // Extras
 }

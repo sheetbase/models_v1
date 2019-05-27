@@ -1,6 +1,7 @@
-export interface Notification {
-  '#'?: number;
-  $key?: string;
+import { Ids, Extras } from './_shared';
+
+export interface Notification extends Ids, Extras {
+  // Ids
 
   title: string;
 
@@ -9,5 +10,5 @@ export interface Notification {
   thumbnail?: string;
   content?: string;
   expiry?: string;
-  meta?: any;
+  // Extras
 }

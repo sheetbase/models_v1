@@ -1,6 +1,7 @@
-export interface Page {
-  '#'?: number;
-  $key?: string;
+import { Ids, Extras } from './_shared';
+
+export interface Page extends Ids, Extras {
+  // Ids
 
   title: string;
 
@@ -9,5 +10,5 @@ export interface Page {
   content?: string;
   locale?: string;
   origin?: string;
-  meta?: any;
+  // Extras
 }

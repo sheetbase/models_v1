@@ -1,36 +1,27 @@
-import { UserProfile } from './user';
+import { Ids, Authors, Images, Taxonomies, Statistics, Extras } from './_shared';
 
-export interface Post {
-  '#'?: number;
-  $key?: string;
+export interface Post extends Ids, Authors, Images, Taxonomies, Statistics, Extras {
+  // Ids
 
   title: string;
 
   createdAt?: string;
   updatedAt?: string;
-  author?: string | UserProfile;
-  excerpt?: string;
-  thumbnail?: string;
-  image?: string;
+  // Authors
+  // Images
   duration?: number;
-  viewCount?: number;
-  likeCount?: number;
-  commentCount?: number;
+  excerpt?: string;
   contentSource?: string;
   content?: string;
-  type?: string;
   parents?: {
     [$key: string]: any;
   };
+  type?: string;
   status?: 'draft' | 'published' | 'archived';
   locale?: string;
   origin?: string;
   keywords?: string;
-  categories?: {
-    [slug: string]: string;
-  };
-  tags?: string | {
-    [slug: string]: string;
-  };
-  meta?: any;
+  // Taxonomies
+  // Statistics
+  // Extras
 }

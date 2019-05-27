@@ -1,3 +1,4 @@
+import { Ids, Extras } from './_shared';
 import { OrderAdjustment } from './order';
 
 export interface RequestItem {
@@ -6,9 +7,8 @@ export interface RequestItem {
   price: number;
 }
 
-export interface Request {
-  '#'?: number;
-  $key?: string;
+export interface Request extends Ids, Extras {
+  // Ids
 
   item: RequestItem;
   value: number;
@@ -23,5 +23,6 @@ export interface Request {
   transactionId?: string;
   adjustments?: OrderAdjustment[];
   note?: string;
-  meta?: any;
+
+  // Extras
 }

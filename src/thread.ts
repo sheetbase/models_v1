@@ -1,8 +1,7 @@
-import { UserProfile } from './user';
+import { Ids, Extras } from './_shared';
 
-export interface Thread extends UserProfile {
-  '#'?: number;
-  $key?: string;
+export interface Thread extends Ids, Extras {
+  // Ids
 
   content: string;
 
@@ -14,5 +13,5 @@ export interface Thread extends UserProfile {
   email?: string;
   displayName?: string;
 
-  meta?: any;
+  // Extras
 }

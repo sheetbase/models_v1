@@ -1,6 +1,7 @@
-export interface Package {
-  '#'?: number;
-  $key?: string;
+import { Ids, Extras } from './_shared';
+
+export interface Package extends Ids, Extras {
+  // Ids
 
   title: string;
   sku: string;
@@ -12,5 +13,5 @@ export interface Package {
   content?: string;
   locale?: string;
   origin?: string;
-  meta?: any;
+  // Extras
 }

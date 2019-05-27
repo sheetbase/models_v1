@@ -1,6 +1,7 @@
-export interface Category {
-  '#'?: number;
-  $key?: string;
+import { Ids, Extras } from './_shared';
+
+export interface Category extends Ids, Extras {
+  // Ids
 
   title: string;
 
@@ -8,5 +9,5 @@ export interface Category {
   thumbnail?: string;
   count?: number;
   only?: string;
-  meta?: any;
+  // Extras
 }
