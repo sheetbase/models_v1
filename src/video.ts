@@ -12,6 +12,7 @@ export interface Video extends Ids, Authors, Images, Taxonomies, Statistics, Ext
   // Authors
   // Images
   description?: string;
+  contentSource?: string;
   content?: string;
   parents?: {
     [$key: string]: any;

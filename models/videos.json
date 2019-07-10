@@ -10,6 +10,7 @@
     { "name": "thumbnail", "width": 300 },
     { "name": "image", "width": 300 },
     { "name": "description", "width": 300 },
+    { "name": "contentSource", "width": 300 },
     { "name": "content", "width": 700 },
     { "name": "src", "width": 300 },
     { "name": "parents", "type": "object", "width": 300 },

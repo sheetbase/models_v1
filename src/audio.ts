@@ -12,6 +12,7 @@ export interface Audio extends Ids, Authors, Images, Taxonomies, Statistics, Ext
   // Authors
   // Images
   description?: string;
+  contentSource?: string;
   content?: string;
   sheet?: string | {
     [type: string]: any; // { jpg: ..., pdf: ..., ... }
