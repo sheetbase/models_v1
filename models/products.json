@@ -22,6 +22,8 @@
     { "name": "country" },
     { "name": "upc" },
     { "name": "status" },
+    { "name": "soldCount", "type": "number" },
+    { "name": "stockCount", "type": "number" },
     { "name": "locale" },
     { "name": "origin" },
     { "name": "variations", "type": "object", "width": 500 },

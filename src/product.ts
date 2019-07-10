@@ -57,6 +57,8 @@ export interface Product extends Ids, Images, Taxonomies, Statistics, Extras {
   rating?: ProductRating;
   shipping?: ProductShipping;
   status?: 'instock' | 'outstock' | 'archived';
+  stockCount?: number;
+  soldCount?: number;
   locale?: string;
   origin?: string;
   relationships?: {
