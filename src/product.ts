@@ -8,15 +8,15 @@ export interface ProductOption {
   };
 }
 export interface ProductOptionItem {
-  id: string;
+  id: string; // unique option id
   title: string;
-  value?: string;
+  value?: string; // color code, ...
   modifier?: number; // original price + this
 }
 
 export interface ProductVariant {
-  title: string;
-  sku: string;
+  title: string; // Product 1 (XL, Blue)
+  sku: string; // product SKU + options ids: P001-XL-B (Product 1, XL, Blue)
   price?: number;
   upc?: string;
   image?: string;
@@ -24,19 +24,20 @@ export interface ProductVariant {
 }
 
 export interface ProductRating {
-  count: number;
-  total: number;
+  count: number; // number of rating
+  total: number; // number of stars
 }
 
 export interface ProductShipping {
-  cost?: number;
+  cost?: number; // this cost > class-based cost > 0
   class?: string; // default class
   only?: string | string[]; // only accept these classes
 }
 
+// classes: default, free and ...
 export interface ProductShippingClass {
   title: string;
-  est: string;
+  est: string; // estimated time
   logo?: string;
   cost?: number;
 }
