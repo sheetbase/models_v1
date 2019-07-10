@@ -22,10 +22,9 @@ export interface ProductRating {
 }
 
 export interface ProductShipping {
-  price?: number;
-  weight?: number | string; // number = kg; 10lb
-  dimensions?: string;
-  class?: string;
+  cost?: number;
+  class?: string; // default class
+  only?: string | string[]; // only accept these classes
 }
 
 export interface Product extends Ids, Images, Taxonomies, Statistics, Extras {
@@ -55,7 +54,7 @@ export interface Product extends Ids, Images, Taxonomies, Statistics, Extras {
     [name: string]: ProductVariation;
   };
   rating?: ProductRating;
-  shipping?: ProductShipping;
+  shipping?: string | ProductShipping;
   status?: 'instock' | 'outstock' | 'archived';
   stockCount?: number;
   soldCount?: number;
