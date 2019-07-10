@@ -1,19 +1,26 @@
 import { Ids, Images, Taxonomies, Statistics, Extras } from './_shared';
 import { Post } from './post';
 
-export interface ProductVariation {
+export interface ProductOption {
   title?: string;
   items: {
-    [$key: string]: ProductVariationItem;
+    [$key: string]: ProductOptionItem;
   };
 }
-
-export interface ProductVariationItem {
+export interface ProductOptionItem {
+  id: string;
   title: string;
-  price?: number; // use this price
+  value?: string;
   modifier?: number; // original price + this
-  description?: string;
-  content?: string;
+}
+
+export interface ProductVariant {
+  title: string;
+  sku: string;
+  price?: number;
+  upc?: string;
+  image?: string;
+  stockCount?: number;
 }
 
 export interface ProductRating {
@@ -64,8 +71,11 @@ export interface Product extends Ids, Images, Taxonomies, Statistics, Extras {
   soldCount?: number;
   locale?: string;
   origin?: string;
-  variations?: {
-    [name: string]: ProductVariation;
+  options?: {
+    [name: string]: ProductOption;
+  };
+  variants?: {
+    [variant: string]: ProductVariant;
   };
   shipping?: string | ProductShipping;
   rating?: ProductRating;
