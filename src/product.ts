@@ -41,9 +41,6 @@ export interface Product extends Ids, Images, Taxonomies, Statistics, Extras {
   contentSource?: string;
   content?: string;
   slideshow?: Post[];
-  parents?: {
-    [$key: string]: any;
-  };
   discounted?: number;
   type?: string;
   brand?: string;
@@ -55,16 +52,19 @@ export interface Product extends Ids, Images, Taxonomies, Statistics, Extras {
     dimensions?: string;
     [prop: string]: any;
   };
-  variations?: {
-    [name: string]: ProductVariation;
-  };
-  rating?: ProductRating;
-  shipping?: string | ProductShipping;
   status?: 'instock' | 'outstock' | 'archived';
   stockCount?: number;
   soldCount?: number;
   locale?: string;
   origin?: string;
+  variations?: {
+    [name: string]: ProductVariation;
+  };
+  shipping?: string | ProductShipping;
+  rating?: ProductRating;
+  parents?: {
+    [$key: string]: any;
+  };
   relationships?: {
     [to: string]: any; // { "posts/post-1": ... }
   };
