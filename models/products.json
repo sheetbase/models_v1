@@ -21,6 +21,7 @@
     { "name": "birthday" },
     { "name": "country" },
     { "name": "upc" },
+    { "name": "props", "type": "object", "width": 500 },
     { "name": "status" },
     { "name": "soldCount", "type": "number" },
     { "name": "stockCount", "type": "number" },

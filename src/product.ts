@@ -50,6 +50,11 @@ export interface Product extends Ids, Images, Taxonomies, Statistics, Extras {
   birthday?: string;
   country?: string;
   upc?: number | string;
+  props?: {
+    weight?: number | string; // number = kg; 10lb
+    dimensions?: string;
+    [prop: string]: any;
+  };
   variations?: {
     [name: string]: ProductVariation;
   };
