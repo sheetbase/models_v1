@@ -7,6 +7,7 @@ export interface ProductOption {
     [$key: string]: ProductOptionItem;
   };
 }
+
 export interface ProductOptionItem {
   id: string; // unique option id
   title: string;
