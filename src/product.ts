@@ -27,6 +27,13 @@ export interface ProductShipping {
   only?: string | string[]; // only accept these classes
 }
 
+export interface ProductShippingClass {
+  title: string;
+  est: string;
+  logo?: string;
+  cost?: number;
+}
+
 export interface Product extends Ids, Images, Taxonomies, Statistics, Extras {
   // Ids
 
