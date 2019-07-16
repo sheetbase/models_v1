@@ -30,6 +30,8 @@
     { "name": "options", "type": "object", "width": 500 },
     { "name": "variants", "type": "object", "width": 500 },
     { "name": "shipping", "type": "object", "width": 500 },
+    { "name": "promotion", "width": 300 },
+    { "name": "warranty", "width": 300 },
     { "name": "rating", "type": "object", "width": 300 },
     { "name": "parents", "type": "object", "width": 300 },
     { "name": "relationships", "type": "object", "width": 300 },

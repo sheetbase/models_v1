@@ -80,6 +80,8 @@ export interface Product extends Ids, Images, Taxonomies, Statistics, Extras {
     [variant: string]: ProductVariant;
   };
   shipping?: string | ProductShipping;
+  promotion?: string;
+  warranty?: string;
   rating?: ProductRating;
   parents?: {
     [$key: string]: any;
