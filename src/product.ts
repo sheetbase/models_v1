@@ -64,7 +64,7 @@ export interface Product extends Ids, Images, Taxonomies, Statistics, Extras {
   country?: string;
   upc?: number | string;
   props?: {
-    weight?: number | string; // number = kg; 10lb
+    weight?: string; // number = kg; 10lb
     dimensions?: string;
     [prop: string]: any;
   };
