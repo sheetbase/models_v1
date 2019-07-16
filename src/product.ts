@@ -20,6 +20,7 @@ export interface ProductVariant {
   sku: string; // product SKU + options ids: P001-XL-B (Product 1, XL, Blue)
   price?: number;
   upc?: string;
+  thumbnail?: string;
   image?: string;
   stockCount?: number;
 }
