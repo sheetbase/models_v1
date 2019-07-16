@@ -9,10 +9,9 @@ export interface ProductOption {
 }
 
 export interface ProductOptionItem {
-  id: string; // unique option id
   title: string;
-  value?: string; // color code, ...
-  modifier?: number; // original price + this
+  content?: any; // color code, ...
+  offset?: number; // original price + this
 }
 
 export interface ProductVariant {
