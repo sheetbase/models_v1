@@ -15,7 +15,9 @@ export interface Request extends Ids, Extras {
   createdAt?: string;
   paymentType?: string;
   transactionId?: string;
-  adjustments?: OrderAdjustment[];
+  adjustments?: {
+    [adjustment: string]: OrderAdjustment;
+  };
   note?: string;
 
   // Extras

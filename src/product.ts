@@ -32,7 +32,7 @@ export interface ProductRating {
 export interface ProductShipping {
   cost?: number; // this cost > class-based cost > 0
   class?: string; // default class
-  only?: string | string[]; // only accept these classes
+  only?: string; // only accept these classes, separated by commas
 }
 
 // classes: default, free and ...
@@ -56,7 +56,9 @@ export interface Product extends Ids, Images, Taxonomies, Statistics, Extras {
   description?: string;
   contentSource?: string;
   content?: string;
-  slideshow?: Post[];
+  slideshow?: {
+    [slide: string]: Post;
+  };
   discounted?: number;
   type?: string;
   brand?: string;

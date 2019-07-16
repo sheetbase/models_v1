@@ -49,7 +49,9 @@ export interface Order extends Ids, Extras {
 
   paymentType?: string;
   transactionId?: string;
-  adjustments?: OrderAdjustment[];
+  adjustments?: {
+    [adjustment: string]: OrderAdjustment;
+  };
   discountData?: {
     [type: string]: OrderDiscount;
   };
