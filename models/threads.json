@@ -2,15 +2,16 @@
   "gid": 105,
   "public": true,
   "schema": [
-    { "name": "#", "type": "number", "width": 50 },
-    { "name": "$key", "width": 200 },
+    { "name": "#", "width": 50 },
+    { "name": "title", "width": 300 },
+    { "name": "$key", "width": 300 },
     { "name": "createdAt" },
-    { "name": "uid" },
-    { "name": "email" },
+    { "name": "uid", "width": 300 },
+    { "name": "email", "width": 300 },
     { "name": "displayName" },
-    { "name": "parent" },
-    { "name": "master" },
-    { "name": "content", "width": 700 },
-    { "name": "meta", "type": "object", "width": 500 }
+    { "name": "parent", "width": 300 },
+    { "name": "master", "width": 300 },
+    { "name": "content", "width": 500 },
+    { "name": "meta", "width": 500 }
   ]
 }

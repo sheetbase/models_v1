@@ -1,13 +1,13 @@
 {
   "gid": 111,
   "schema": [
-    { "name": "#", "type": "number", "width": 50 },
-    { "name": "email", "width": 200 },
-    { "name": "$key", "width": 200 },
-    { "name": "createdAt", "width": 200 },
-    { "name": "message", "width": 700 },
-    { "name": "name", "width": 200 },
-    { "name": "tel", "width": 200 },
-    { "name": "meta", "type": "object", "width": 500 }
+    { "name": "#", "width": 50 },
+    { "name": "email", "width": 300 },
+    { "name": "$key", "width": 300 },
+    { "name": "createdAt", "width": 300 },
+    { "name": "message", "width": 500 },
+    { "name": "name", "width": 300 },
+    { "name": "tel", "width": 300 },
+    { "name": "meta", "width": 500 }
   ]
 }

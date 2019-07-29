@@ -2,14 +2,14 @@
   "gid": 112,
   "public": true,
   "schema": [
-    { "name": "#", "type": "number", "width": 50 },
-    { "name": "title", "width": 200 },
-    { "name": "$key", "width": 200 },
+    { "name": "#", "width": 50 },
+    { "name": "title", "width": 300 },
+    { "name": "$key", "width": 300 },
     { "name": "createdAt" },
     { "name": "link", "width": 300 },
     { "name": "thumbnail", "width": 300 },
-    { "name": "content", "width": 700 },
-    { "name": "expiry", "width": 200 },
-    { "name": "meta", "type": "object", "width": 500 }
+    { "name": "content", "width": 500 },
+    { "name": "expiry", "width": 300 },
+    { "name": "meta", "width": 500 }
   ]
 }

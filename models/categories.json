@@ -2,13 +2,13 @@
   "gid": 101,
   "public": true,
   "schema": [
-    { "name": "#", "type": "number", "width": 50 },
-    { "name": "title", "width": 200 },
-    { "name": "$key", "width": 200 },
+    { "name": "#", "width": 50 },
+    { "name": "title", "width": 300 },
+    { "name": "$key", "width": 300 },
     { "name": "description", "width": 500 },
     { "name": "thumbnail", "width": 300 },
-    { "name": "count", "type": "number" },
+    { "name": "count" },
     { "name": "only" },
-    { "name": "meta", "type": "object", "width": 500 }
+    { "name": "meta", "width": 500 }
   ]
 }
