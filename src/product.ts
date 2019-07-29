@@ -32,10 +32,9 @@ export interface ProductRating {
 
 // classes: default, free and ...
 export interface ProductShippingClass {
-  title: string;
-  est: string; // estimated time
-  logo?: string;
+  name: string;
   cost?: number;
+  logo?: string;
 }
 
 export interface Product extends Ids, Images, Taxonomies, Statistics, Extras {
