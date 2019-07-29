@@ -18,6 +18,7 @@ export interface ProductVariant {
   title: string; // Product 1 (XL, Blue)
   sku: string; // product SKU + options ids: P001-XL-B (Product 1, XL, Blue)
   price?: number;
+  discounted?: number;
   upc?: string;
   thumbnail?: string;
   image?: string;
@@ -27,12 +28,6 @@ export interface ProductVariant {
 export interface ProductRating {
   count: number; // number of rating
   total: number; // number of stars
-}
-
-export interface ProductShipping {
-  cost?: number; // this cost > class-based cost > 0
-  class?: string; // default class
-  only?: string; // only accept these classes, separated by commas
 }
 
 // classes: default, free and ...
@@ -81,7 +76,7 @@ export interface Product extends Ids, Images, Taxonomies, Statistics, Extras {
   variants?: {
     [variant: string]: ProductVariant;
   };
-  shipping?: string | ProductShipping;
+  shippingCost?: number;
   promotion?: string;
   warranty?: string;
   rating?: ProductRating;

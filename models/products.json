@@ -29,7 +29,7 @@
     { "name": "origin" },
     { "name": "options", "type": "object", "width": 500 },
     { "name": "variants", "type": "object", "width": 500 },
-    { "name": "shipping", "type": "object", "width": 500 },
+    { "name": "shippingCost" },
     { "name": "promotion", "width": 300 },
     { "name": "warranty", "width": 300 },
     { "name": "rating", "type": "object", "width": 300 },
