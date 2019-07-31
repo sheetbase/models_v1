@@ -30,13 +30,6 @@ export interface ProductRating {
   total: number; // number of stars
 }
 
-// classes: default, free and ...
-export interface ProductShippingClass {
-  name: string;
-  cost?: number;
-  logo?: string;
-}
-
 export interface Product extends Ids, Images, Taxonomies, Statistics, Extras {
   // Ids
 
@@ -75,7 +68,6 @@ export interface Product extends Ids, Images, Taxonomies, Statistics, Extras {
   variants?: {
     [variant: string]: ProductVariant;
   };
-  shippingCost?: number;
   promotion?: string;
   warranty?: string;
   rating?: ProductRating;

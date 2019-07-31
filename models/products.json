@@ -29,7 +29,6 @@
     { "name": "origin" },
     { "name": "options", "width": 300 },
     { "name": "variants", "width": 300 },
-    { "name": "shippingCost" },
     { "name": "promotion", "width": 300 },
     { "name": "warranty", "width": 300 },
     { "name": "rating", "width": 300 },
