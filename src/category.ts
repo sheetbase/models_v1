@@ -7,6 +7,7 @@ export interface Category extends Ids, Extras {
 
   description?: string;
   thumbnail?: string;
+  image?: string;
   count?: number;
   only?: string;
   // Extras
