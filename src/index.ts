@@ -14,3 +14,4 @@ export * from './user';
 export * from './audio';
 export * from './video';
 export * from './bundle';
+export * from './author';

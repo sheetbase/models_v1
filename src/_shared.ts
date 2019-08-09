@@ -1,5 +1,3 @@
-import { UserProfile } from './user';
-
 export interface Ids {
   '#'?: number;
   $key?: string;
@@ -7,9 +5,8 @@ export interface Ids {
 
 export interface Authors {
   // John Doe
-  // { uid: 'xxx', ... }
-  // { author-1: { ... }, author-2: { ... } }
-  authors?: string | UserProfile | {
+  // { author-1: ..., author-2: ... }
+  authors?: string | {
     [$key: string]: any;
   };
 }
