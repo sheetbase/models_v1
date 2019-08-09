@@ -7,6 +7,7 @@ export interface Bundle extends Ids, Authors, Images, Taxonomies, Statistics, Ex
 
   count?: number;
   createdAt?: string;
+  // Authors
   // Images
   description?: string;
   content?: string;

@@ -7,6 +7,7 @@
     { "name": "$key", "width": 300 },
     { "name": "createdAt" },
     { "name": "count" },
+    { "name": "authors", "width": 300 },
     { "name": "thumbnail", "width": 300 },
     { "name": "image", "width": 300 },
     { "name": "description", "width": 300 },
