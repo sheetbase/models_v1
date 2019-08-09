@@ -68,22 +68,6 @@ const post: Post = {};
 - [Schema](https://github.com/sheetbase/models/blob/master/models/orders.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/order.ts)
 
-### Packages `109`
-
-- Public
-- [Schema](https://github.com/sheetbase/models/blob/master/models/packages.json)
-- [Types](https://github.com/sheetbase/models/blob/master/src/package.ts)
-
-### Requests `110`
-
-- [Schema](https://github.com/sheetbase/models/blob/master/models/requests.json)
-- [Types](https://github.com/sheetbase/models/blob/master/src/request.ts)
-
-### Messages `111`
-
-- [Schema](https://github.com/sheetbase/models/blob/master/models/messages.json)
-- [Types](https://github.com/sheetbase/models/blob/master/src/message.ts)
-
 ### Notifications `112`
 
 - Public
@@ -113,6 +97,12 @@ const post: Post = {};
 - Public
 - [Schema](https://github.com/sheetbase/models/blob/master/models/bundles.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/bundle.ts)
+
+### Authors `117`
+
+- Public
+- [Schema](https://github.com/sheetbase/models/blob/master/models/authors.json)
+- [Types](https://github.com/sheetbase/models/blob/master/src/author.ts)
 
 ## Lisence
 
