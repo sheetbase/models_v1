@@ -1,5 +1,6 @@
 import { Ids, Images, Taxonomies, Statistics, Extras } from './_shared';
 import { Post } from './post';
+import { ThreadRating } from './thread';
 
 export interface ProductOption {
   title?: string;
@@ -23,11 +24,6 @@ export interface ProductVariant {
   thumbnail?: string;
   image?: string;
   stockCount?: number;
-}
-
-export interface ProductRating {
-  count: number; // number of rating
-  total: number; // number of stars
 }
 
 export interface Product extends Ids, Images, Taxonomies, Statistics, Extras {
@@ -70,7 +66,7 @@ export interface Product extends Ids, Images, Taxonomies, Statistics, Extras {
   };
   promotion?: string;
   warranty?: string;
-  rating?: ProductRating;
+  rating?: ThreadRating;
   parents?: {
     [$key: string]: any;
   };

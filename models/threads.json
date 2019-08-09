@@ -11,6 +11,7 @@
     { "name": "displayName" },
     { "name": "parent", "width": 300 },
     { "name": "master", "width": 300 },
+    { "name": "rating", "width": 300 },
     { "name": "content", "width": 500 },
     { "name": "meta", "width": 500 }
   ]
