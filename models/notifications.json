@@ -5,7 +5,6 @@
     { "name": "#", "width": 50 },
     { "name": "title", "width": 300 },
     { "name": "$key", "width": 300 },
-    { "name": "createdAt" },
     { "name": "link", "width": 300 },
     { "name": "thumbnail", "width": 300 },
     { "name": "content", "width": 500 },
