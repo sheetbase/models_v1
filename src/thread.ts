@@ -18,6 +18,7 @@ export interface Thread extends Ids, Extras {
   uid?: string;
   email?: string;
   displayName?: string;
+  phoneNumber?: string;
 
   // Extras
 }

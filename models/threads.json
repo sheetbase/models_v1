@@ -9,6 +9,7 @@
     { "name": "uid", "width": 300 },
     { "name": "email", "width": 300 },
     { "name": "displayName" },
+    { "name": "phoneNumber" },
     { "name": "parent", "width": 300 },
     { "name": "master", "width": 300 },
     { "name": "rating", "width": 300 },
