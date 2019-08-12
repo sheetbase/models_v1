@@ -9,7 +9,12 @@
     { "name": "thumbnail", "width": 300 },
     { "name": "image", "width": 300 },
     { "name": "email", "width": 300 },
-    { "name": "url", "width": 300 },
+    { "name": "phoneNumber" },
+    { "name": "url" },
+    { "name": "stats", "width": 300 },
+    { "name": "viewCount" },
+    { "name": "likeCount" },
+    { "name": "commentCount" },
     { "name": "meta", "width": 500 }
   ]
 }

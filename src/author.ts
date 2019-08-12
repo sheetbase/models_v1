@@ -1,6 +1,6 @@
-import { Ids, Images, Extras } from './_shared';
+import { Ids, Images, Statistics, Extras } from './_shared';
 
-export interface Author extends Ids, Images, Extras {
+export interface Author extends Ids, Images, Statistics, Extras {
   // Ids
 
   title: string;
@@ -8,6 +8,11 @@ export interface Author extends Ids, Images, Extras {
   description?: string;
   // Images
   email?: string;
+  phoneNumber?: string;
   url?: string;
+  stats?: {
+    [prop: string]: any;
+  };
+  // Statistics
   // Extras
 }
