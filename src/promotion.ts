@@ -4,9 +4,9 @@ export interface Promotion extends Ids, Extras {
   // Ids
 
   title: string;
-  type: string;
+  type?: string;
   value: number;
-  body: string;
+  content: string;
   expiry: string;
 
   // Extras
