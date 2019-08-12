@@ -10,6 +10,7 @@ export interface Bundle extends Ids, Authors, Images, Taxonomies, Statistics, Ex
   // Authors
   // Images
   description?: string;
+  contentSource?: string;
   content?: string;
   type?: string;
   relationships?: {
