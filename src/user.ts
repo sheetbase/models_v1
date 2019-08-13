@@ -24,7 +24,7 @@ export interface UserProfile extends UserEditableProfile {
   uid?: string;
   createdAt?: string;
   email?: string;
-  phoneNumber?: string;
+  phoneNumber?: number | string;
   claims?: {
     [key: string]: any;
   };

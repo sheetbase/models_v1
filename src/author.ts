@@ -9,7 +9,7 @@ export interface Author extends Ids, Images, Content, Taxonomies, Statistics, Ex
   description?: string;
   // Content
   email?: string;
-  phoneNumber?: string;
+  phoneNumber?: number | string;
   url?: string;
   stats?: {
     [prop: string]: any;

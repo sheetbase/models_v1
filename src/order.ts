@@ -40,7 +40,7 @@ export interface Order extends Ids, Extras {
   uid?: string;
   email?: string;
   displayName?: string;
-  phoneNumber?: string;
+  phoneNumber?: number | string;
   address?: string;
   note?: string;
   paymentType?: string;
