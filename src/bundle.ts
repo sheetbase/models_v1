@@ -1,6 +1,9 @@
-import { Ids, Authors, Images, Content, Taxonomies, Statistics, Extras } from './_shared';
+import {
+  Ids, Authors, Images, Content, Relationships, Taxonomies, Statistics, Extras,
+} from './_shared';
 
-export interface Bundle extends Ids, Authors, Images, Content, Taxonomies, Statistics, Extras {
+export interface Bundle
+extends Ids, Authors, Images, Content, Relationships, Taxonomies, Statistics, Extras {
   // Ids
 
   title: string;
@@ -12,9 +15,7 @@ export interface Bundle extends Ids, Authors, Images, Content, Taxonomies, Stati
   description?: string;
   // Content
   type?: string;
-  relationships?: {
-    [to: string]: any; // { "posts/post-1": ... }
-  };
+  // Relationships
   keywords?: string;
   // Taxonomies
   // Statistics

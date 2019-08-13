@@ -6,6 +6,7 @@
     { "name": "title", "width": 300 },
     { "name": "$key", "width": 300 },
     { "name": "createdAt" },
+    { "name": "content", "width": 500 },
     { "name": "uid", "width": 300 },
     { "name": "email", "width": 300 },
     { "name": "displayName" },
@@ -14,7 +15,6 @@
     { "name": "master", "width": 300 },
     { "name": "type" },
     { "name": "stars" },
-    { "name": "content", "width": 500 },
     { "name": "meta", "width": 500 }
   ]
 }

@@ -1,4 +1,6 @@
-import { Ids, Authors, Images, Content, Taxonomies, Rating, Statistics, Extras } from './_shared';
+import {
+  Ids, Authors, Images, Content, Parents, Relationships, Taxonomies, Rating, Statistics, Extras,
+} from './_shared';
 import { Post } from './post';
 
 export interface ProductOption {
@@ -25,7 +27,8 @@ export interface ProductVariant {
   stockCount?: number;
 }
 
-export interface Product extends Ids, Authors, Images, Content, Taxonomies, Rating, Statistics, Extras {
+export interface Product
+extends Ids, Authors, Images, Content, Parents, Relationships, Taxonomies, Rating, Statistics, Extras {
   // Ids
 
   title: string;
@@ -65,12 +68,8 @@ export interface Product extends Ids, Authors, Images, Content, Taxonomies, Rati
   };
   promotion?: string;
   warranty?: string;
-  parents?: {
-    [$key: string]: any;
-  };
-  relationships?: {
-    [to: string]: any; // { "posts/post-1": ... }
-  };
+  // Parents
+  // Relationships
   keywords?: string;
   // Taxonomies
   // Rating

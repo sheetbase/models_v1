@@ -21,6 +21,19 @@ export interface Content {
   content?: string;
 }
 
+export interface Parents {
+  parents?: {
+    [$key: string]: any;
+  };
+}
+
+export interface Relationships {
+  // { "posts:post-1": ... }
+  relationships?: {
+    [to: string]: any;
+  };
+}
+
 export interface Taxonomies {
   // Cat 1, Cat 2
   // { cat-1: ..., cat-2: ... }
