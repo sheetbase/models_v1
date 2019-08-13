@@ -16,15 +16,15 @@ export interface ProductOptionItem {
   offset?: number; // original price + this
 }
 
-export interface ProductVariant {
+export interface ProductVariant extends Images {
   title: string; // Product 1 (XL, Blue)
   sku: string; // product SKU + options ids: P001-XL-B (Product 1, XL, Blue)
   price?: number;
   discounted?: number;
-  upc?: string;
-  thumbnail?: string;
-  image?: string;
+  upc?: number | string;
+  // Images
   stockCount?: number;
+  soldCount?: number;
 }
 
 export interface Product
