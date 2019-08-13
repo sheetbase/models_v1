@@ -15,6 +15,9 @@
     { "name": "email", "width": 300 },
     { "name": "displayName" },
     { "name": "phoneNumber" },
+    { "name": "viewCount" },
+    { "name": "likeCount" },
+    { "name": "commentCount" },
     { "name": "meta", "width": 500 }
   ]
 }

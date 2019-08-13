@@ -1,6 +1,6 @@
-import { Ids, Extras } from './_shared';
+import { Ids, Statistics, Extras } from './_shared';
 
-export interface Thread extends Ids, Extras {
+export interface Thread extends Ids, Statistics, Extras {
   // Ids
   title?: string;
   type?: string;
@@ -8,10 +8,11 @@ export interface Thread extends Ids, Extras {
   content: string;
   parent?: string;
   master?: string; // <sheet>:<key> (posts:post-1)
-  stars?: number;
+  stars?: number; // with rating stars
   uid?: string;
   email?: string;
   displayName?: string;
   phoneNumber?: number | string;
+  // Statistics
   // Extras
 }
