@@ -7,7 +7,7 @@ export interface Thread extends Ids, Extras {
   createdAt?: string;
   content: string;
   parent?: string;
-  master?: string;
+  master?: string; // <sheet>:<key> (posts:post-1)
   stars?: number;
   uid?: string;
   email?: string;
