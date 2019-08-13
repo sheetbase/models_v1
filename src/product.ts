@@ -1,4 +1,4 @@
-import { Ids, Images, Taxonomies, Statistics, Extras } from './_shared';
+import { Ids, Authors, Images, Taxonomies, Statistics, Extras } from './_shared';
 import { Post } from './post';
 import { ThreadRating } from './thread';
 
@@ -26,7 +26,7 @@ export interface ProductVariant {
   stockCount?: number;
 }
 
-export interface Product extends Ids, Images, Taxonomies, Statistics, Extras {
+export interface Product extends Ids, Authors, Images, Taxonomies, Statistics, Extras {
   // Ids
 
   title: string;
@@ -35,6 +35,7 @@ export interface Product extends Ids, Images, Taxonomies, Statistics, Extras {
   price: number;
 
   createdAt?: string;
+  // Authors
   // Images
   description?: string;
   contentSource?: string;

@@ -10,6 +10,7 @@
     { "name": "unit" },
     { "name": "price" },
     { "name": "discounted" },
+    { "name": "authors", "width": 300 },
     { "name": "thumbnail", "width": 300 },
     { "name": "image", "width": 300 },
     { "name": "description", "width": 300 },
