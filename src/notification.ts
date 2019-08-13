@@ -4,10 +4,9 @@ export interface Notification extends Ids, Extras {
   // Ids
 
   title: string;
+  link: string;
 
-  link?: string;
   thumbnail?: string;
   content?: string;
-  expiry?: string;
   // Extras
 }

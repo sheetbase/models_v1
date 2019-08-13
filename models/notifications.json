@@ -8,7 +8,6 @@
     { "name": "link", "width": 300 },
     { "name": "thumbnail", "width": 300 },
     { "name": "content", "width": 500 },
-    { "name": "expiry" },
     { "name": "meta", "width": 500 }
   ]
 }
