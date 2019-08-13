@@ -5,16 +5,16 @@
     { "name": "#", "width": 50 },
     { "name": "title", "width": 300 },
     { "name": "$key", "width": 300 },
+    { "name": "type" },
     { "name": "createdAt" },
     { "name": "content", "width": 500 },
+    { "name": "parent", "width": 300 },
+    { "name": "master", "width": 300 },
+    { "name": "stars" },
     { "name": "uid", "width": 300 },
     { "name": "email", "width": 300 },
     { "name": "displayName" },
     { "name": "phoneNumber" },
-    { "name": "parent", "width": 300 },
-    { "name": "master", "width": 300 },
-    { "name": "type" },
-    { "name": "stars" },
     { "name": "meta", "width": 500 }
   ]
 }

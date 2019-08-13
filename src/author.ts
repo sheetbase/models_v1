@@ -2,9 +2,9 @@ import { Ids, Images, Content, Taxonomies, Statistics, Extras } from './_shared'
 
 export interface Author extends Ids, Images, Content, Taxonomies, Statistics, Extras {
   // Ids
-
   title: string;
-
+  type?: string;
+  createdAt?: string;
   // Images
   description?: string;
   // Content
@@ -14,9 +14,8 @@ export interface Author extends Ids, Images, Content, Taxonomies, Statistics, Ex
   stats?: {
     [prop: string]: any;
   };
-  type?: string;
-  keywords?: string;
   // Taxonomies
   // Statistics
+  keywords?: string;
   // Extras
 }

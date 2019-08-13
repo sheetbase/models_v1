@@ -20,9 +20,7 @@ export interface UserEditableProfile {
 }
 
 export interface UserProfile extends UserEditableProfile {
-
   // UserEditableProfile
-
   uid?: string;
   createdAt?: string;
   email?: string;
@@ -33,15 +31,12 @@ export interface UserProfile extends UserEditableProfile {
 }
 
 export interface UserInfo extends UserProfile {
-
   // UserProfile
-
   username?: string;
   emailVerified?: boolean;
   lastLogin?: string;
   providerId?: UserProviderId;
   settings?: UserProfileSettings;
-
   // dynamic
   isNewUser?: boolean;
   isAnonymous?: boolean;
@@ -58,10 +53,7 @@ export interface UserSecret {
 
 export interface User extends UserInfo, UserSecret {
   '#'?: number;
-
   uid: string;
-
   // UserInfo
-
   // UserSecret
 }

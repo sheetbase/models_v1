@@ -2,11 +2,10 @@ import { Ids, Extras } from './_shared';
 
 export interface Thread extends Ids, Extras {
   // Ids
-
   title?: string;
-  content: string;
-
+  type?: string;
   createdAt?: string;
+  content: string;
   parent?: string;
   master?: string;
   stars?: number;
@@ -14,7 +13,5 @@ export interface Thread extends Ids, Extras {
   email?: string;
   displayName?: string;
   phoneNumber?: string;
-  type?: string;
-
   // Extras
 }

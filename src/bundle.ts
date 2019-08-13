@@ -5,19 +5,17 @@ import {
 export interface Bundle
 extends Ids, Authors, Images, Content, Relationships, Taxonomies, Statistics, Extras {
   // Ids
-
   title: string;
-
-  count?: number;
+  type?: string;
   createdAt?: string;
   // Authors
   // Images
   description?: string;
   // Content
-  type?: string;
+  count?: number;
   // Relationships
-  keywords?: string;
   // Taxonomies
   // Statistics
+  keywords?: string;
   // Extras
 }

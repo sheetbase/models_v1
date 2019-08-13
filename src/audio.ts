@@ -5,35 +5,33 @@ import {
 export interface Audio
 extends Ids, Authors, Images, Content, Parents, Relationships, Taxonomies, Statistics, Extras {
   // Ids
-
   title: string;
-  src: string | {
-    [type: string]: any; // { mp3: ..., webm: ..., ... }
-  };
-
+  type?: string;
   createdAt?: string;
   // Authors
   // Images
   description?: string;
   // Content
+  src: string | {
+    [type: string]: any; // { mp3: ..., webm: ... }
+  };
   sheet?: string | {
-    [type: string]: any; // { jpg: ..., pdf: ..., ... }
+    [type: string]: any; // { jpg: ..., pdf: ... }
   };
   duration?: number;
   birthday?: number | string;
-  locale?: string;
-  origin?: string;
-  type?: string;
   props?: {
     [prop: string]: any;
   };
+  locale?: string;
+  origin?: string;
   // Parents
   // Relationships
-  keywords?: string;
   genres?: string | {
     [$key: string]: any;
   };
   // Taxonomies
   // Statistics
+  keywords?: string;
   // Extras
 }

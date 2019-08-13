@@ -22,6 +22,7 @@ export interface Content {
 }
 
 export interface Parents {
+  // { bundle-1: ... }
   parents?: {
     [$key: string]: any;
   };

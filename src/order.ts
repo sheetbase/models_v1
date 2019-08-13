@@ -1,18 +1,17 @@
 import { Ids, Extras } from './_shared';
 
 export interface OrderProduct {
-  key: string;
+  _id: string;
   title: string;
   sku: string;
   price: number;
-
   unit?: string;
   thumbnail?: string;
 }
 
 export interface OrderItem {
+  at: string;
   qty: number;
-  timestamp: number;
   product: OrderProduct;
 }
 
@@ -22,39 +21,35 @@ export interface OrderDiscount {
 }
 
 export interface OrderAdjustment {
+  at: string;
   reason: string;
-  date: string;
   value: number;
 }
 
 export interface Order extends Ids, Extras {
   // Ids
-
-  status: 'new' | 'confirmed' | 'delivering' | 'done' | 'cancelled' | 'archived';
+  createdAt?: string;
   items: {
     [key: string]: OrderItem;
   };
-
-  createdAt?: string;
+  status: 'new' | 'confirmed' | 'delivering' | 'done' | 'cancelled' | 'archived';
   count?: number;
   total?: number;
   subtotal?: number;
   discountTotal?: number;
-
   uid?: string;
   email?: string;
   displayName?: string;
   phoneNumber?: string;
   address?: string;
-
+  note?: string;
   paymentType?: string;
   transactionId?: string;
-  adjustments?: {
-    [adjustment: string]: OrderAdjustment;
-  };
   discountData?: {
     [type: string]: OrderDiscount;
   };
-  note?: string;
+  adjustments?: {
+    [adjustment: string]: OrderAdjustment;
+  };
   // Extras
 }

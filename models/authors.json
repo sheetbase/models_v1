@@ -5,6 +5,8 @@
     { "name": "#", "width": 50 },
     { "name": "title", "width": 300 },
     { "name": "$key", "width": 300 },
+    { "name": "type" },
+    { "name": "createdAt" },
     { "name": "thumbnail", "width": 300 },
     { "name": "image", "width": 300 },
     { "name": "description", "width": 300 },
@@ -14,13 +16,12 @@
     { "name": "phoneNumber" },
     { "name": "url" },
     { "name": "stats", "width": 300 },
-    { "name": "type" },
-    { "name": "keywords", "width": 300 },
     { "name": "categories", "width": 300 },
     { "name": "tags", "width": 300 },
     { "name": "viewCount" },
     { "name": "likeCount" },
     { "name": "commentCount" },
+    { "name": "keywords", "width": 300 },
     { "name": "meta", "width": 500 }
   ]
 }

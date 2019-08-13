@@ -30,12 +30,8 @@ export interface ProductVariant {
 export interface Product
 extends Ids, Authors, Images, Content, Parents, Relationships, Taxonomies, Rating, Statistics, Extras {
   // Ids
-
   title: string;
-  sku: string;
-  unit: string;
-  price: number;
-
+  type?: string;
   createdAt?: string;
   // Authors
   // Images
@@ -44,35 +40,37 @@ extends Ids, Authors, Images, Content, Parents, Relationships, Taxonomies, Ratin
   slideshow?: {
     [slide: string]: Post;
   };
+  sku: string;
+  unit: string;
+  price: number;
   discounted?: number;
-  type?: string;
   brand?: string;
-  birthday?: string;
+  birthday?: number | string;
   country?: string;
   upc?: number | string;
+  promotion?: string;
+  warranty?: string;
   props?: {
-    weight?: string; // number = kg; 10lb
+    weight?: string;
     dimensions?: string;
     [prop: string]: any;
   };
   status?: 'instock' | 'outstock' | 'archived';
   stockCount?: number;
   soldCount?: number;
-  locale?: string;
-  origin?: string;
   options?: {
     [name: string]: ProductOption;
   };
   variants?: {
     [variant: string]: ProductVariant;
   };
-  promotion?: string;
-  warranty?: string;
+  locale?: string;
+  origin?: string;
   // Parents
   // Relationships
-  keywords?: string;
   // Taxonomies
   // Rating
   // Statistics
+  keywords?: string;
   // Extras
 }
