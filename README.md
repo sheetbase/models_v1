@@ -1,6 +1,6 @@
 # Sheetbase Models
 
-Commonly used table structures for using Google Spreadsheet with Sheetbase backend.
+Commonly used sheet structures for using Google Spreadsheet with Sheetbase backend.
 
 <!-- <block:header> -->
 
@@ -22,33 +22,28 @@ const post: Post = {};
 
 ## Models
 
-### Categories `101`
+### Categories `101` :earth_asia:
 
-- Public
 - [Schema](https://github.com/sheetbase/models/blob/master/models/categories.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/category.ts)
 
-### Tags `102`
+### Tags `102` :earth_asia:
 
-- Public
 - [Schema](https://github.com/sheetbase/models/blob/master/models/tags.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/tag.ts)
 
-### Pages `103`
+### Pages `103` :earth_asia:
 
-- Public
 - [Schema](https://github.com/sheetbase/models/blob/master/models/pages.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/page.ts)
 
-### Posts `104`
+### Posts `104` :earth_asia:
 
-- Public
 - [Schema](https://github.com/sheetbase/models/blob/master/models/posts.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/post.ts)
 
-### Threads `105`
+### Threads `105` :earth_asia:
 
-- Public
 - [Schema](https://github.com/sheetbase/models/blob/master/models/threads.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/thread.ts)
 
@@ -57,9 +52,8 @@ const post: Post = {};
 - [Schema](https://github.com/sheetbase/models/blob/master/models/users.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/user.ts)
 
-### Products `107`
+### Products `107` :earth_asia:
 
-- Public
 - [Schema](https://github.com/sheetbase/models/blob/master/models/products.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/product.ts)
 
@@ -68,41 +62,57 @@ const post: Post = {};
 - [Schema](https://github.com/sheetbase/models/blob/master/models/orders.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/order.ts)
 
-### Notifications `112`
+### Notifications `112` :earth_asia:
 
-- Public
 - [Schema](https://github.com/sheetbase/models/blob/master/models/notifications.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/notification.ts)
 
-### Promotions `113`
+### Promotions `113` :earth_asia:
 
-- Public
 - [Schema](https://github.com/sheetbase/models/blob/master/models/promotions.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/promotion.ts)
 
-### Audios `114`
+### Audios `114` :earth_asia:
 
-- Public
 - [Schema](https://github.com/sheetbase/models/blob/master/models/audios.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/audio.ts)
 
-### Videos `115`
+### Videos `115` :earth_asia:
 
-- Public
 - [Schema](https://github.com/sheetbase/models/blob/master/models/videos.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/video.ts)
 
-### Bundles `116`
+### Bundles `116` :earth_asia:
 
-- Public
 - [Schema](https://github.com/sheetbase/models/blob/master/models/bundles.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/bundle.ts)
 
-### Authors `117`
+### Authors `117` :earth_asia:
 
-- Public
 - [Schema](https://github.com/sheetbase/models/blob/master/models/authors.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/author.ts)
+
+## Field order
+
+Sheet fields are sorted by groups.
+
+- Ids: `#`, `$key`
+- `title`
+- `type`
+- `createdAt`, `updatedAt`
+- `authors`
+- Images: `thumbnail`, `image`
+- Content: `description` | `excerpt`, `contentSource`, `content`
+- (Custom properties)
+- `locale`
+- `origin`
+- `parents`
+- `relationships`
+- Taxonomies: `categories`, `tags`
+- Rating: `rating`
+- Statistics: `viewCount`, `likeCount`, `commentCount`
+- `keywords`
+- Extras: `meta`
 
 ## Lisence
 
