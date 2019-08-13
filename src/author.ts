@@ -1,12 +1,13 @@
-import { Ids, Images, Taxonomies, Statistics, Extras } from './_shared';
+import { Ids, Images, Content, Taxonomies, Statistics, Extras } from './_shared';
 
-export interface Author extends Ids, Images, Taxonomies, Statistics, Extras {
+export interface Author extends Ids, Images, Content, Taxonomies, Statistics, Extras {
   // Ids
 
   title: string;
 
-  description?: string;
   // Images
+  description?: string;
+  // Content
   email?: string;
   phoneNumber?: string;
   url?: string;

@@ -16,6 +16,11 @@ export interface Images {
   image?: string;
 }
 
+export interface Content {
+  contentSource?: string;
+  content?: string;
+}
+
 export interface Taxonomies {
   // Cat 1, Cat 2
   // { cat-1: ..., cat-2: ... }

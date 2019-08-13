@@ -1,6 +1,6 @@
-import { Ids, Authors, Images, Taxonomies, Statistics, Extras } from './_shared';
+import { Ids, Authors, Images, Content, Taxonomies, Statistics, Extras } from './_shared';
 
-export interface Audio extends Ids, Authors, Images, Taxonomies, Statistics, Extras {
+export interface Audio extends Ids, Authors, Images, Content, Taxonomies, Statistics, Extras {
   // Ids
 
   title: string;
@@ -12,8 +12,7 @@ export interface Audio extends Ids, Authors, Images, Taxonomies, Statistics, Ext
   // Authors
   // Images
   description?: string;
-  contentSource?: string;
-  content?: string;
+  // Content
   sheet?: string | {
     [type: string]: any; // { jpg: ..., pdf: ..., ... }
   };

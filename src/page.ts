@@ -1,13 +1,12 @@
-import { Ids, Extras } from './_shared';
+import { Ids, Content, Extras } from './_shared';
 
-export interface Page extends Ids, Extras {
+export interface Page extends Ids, Content, Extras {
   // Ids
 
   title: string;
 
   image?: string;
-  contentSource?: string;
-  content?: string;
+  // Content
   locale?: string;
   origin?: string;
   // Extras
