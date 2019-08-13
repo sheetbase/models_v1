@@ -1,13 +1,12 @@
-import { Ids, Extras } from './_shared';
+import { Ids, Images, Extras } from './_shared';
 
-export interface Category extends Ids, Extras {
+export interface Category extends Ids, Images, Extras {
   // Ids
 
   title: string;
 
+  // Images
   description?: string;
-  thumbnail?: string;
-  image?: string;
   count?: number;
   only?: string;
   // Extras

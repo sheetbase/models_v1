@@ -9,16 +9,16 @@ export interface Post extends Ids, Authors, Images, Content, Taxonomies, Statist
   updatedAt?: string;
   // Authors
   // Images
-  duration?: number;
   excerpt?: string;
   // Content
-  parents?: {
-    [$key: string]: any;
-  };
+  duration?: number;
   type?: string;
   status?: 'draft' | 'published' | 'archived';
   locale?: string;
   origin?: string;
+  parents?: {
+    [$key: string]: any;
+  };
   relationships?: {
     [to: string]: any; // { "posts/post-1": ... }
   };

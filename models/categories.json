@@ -5,9 +5,9 @@
     { "name": "#", "width": 50 },
     { "name": "title", "width": 300 },
     { "name": "$key", "width": 300 },
-    { "name": "description", "width": 500 },
     { "name": "thumbnail", "width": 300 },
     { "name": "image", "width": 300 },
+    { "name": "description", "width": 500 },
     { "name": "count" },
     { "name": "only" },
     { "name": "meta", "width": 500 }
