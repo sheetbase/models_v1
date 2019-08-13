@@ -14,6 +14,8 @@
     { "name": "contentSource", "width": 300 },
     { "name": "content", "width": 500 },
     { "name": "count" },
+    { "name": "locale" },
+    { "name": "origin" },
     { "name": "relationships", "width": 300 },
     { "name": "categories", "width": 300 },
     { "name": "tags", "width": 300 },

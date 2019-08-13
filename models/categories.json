@@ -10,6 +10,8 @@
     { "name": "description", "width": 300 },
     { "name": "count" },
     { "name": "only" },
+    { "name": "locale" },
+    { "name": "origin" },
     { "name": "meta", "width": 500 }
   ]
 }

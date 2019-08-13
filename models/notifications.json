@@ -8,6 +8,8 @@
     { "name": "thumbnail", "width": 300 },
     { "name": "content", "width": 500 },
     { "name": "link", "width": 300 },
+    { "name": "locale" },
+    { "name": "origin" },
     { "name": "meta", "width": 500 }
   ]
 }

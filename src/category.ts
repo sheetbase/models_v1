@@ -7,5 +7,7 @@ export interface Category extends Ids, Images, Extras {
   description?: string;
   count?: number;
   only?: string;
+  locale?: string;
+  origin?: string;
   // Extras
 }

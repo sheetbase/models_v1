@@ -8,6 +8,8 @@
     { "name": "type" },
     { "name": "content", "width": 500 },
     { "name": "value" },
+    { "name": "locale" },
+    { "name": "origin" },
     { "name": "meta", "width": 500 }
   ]
 }

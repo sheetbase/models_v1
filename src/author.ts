@@ -14,6 +14,8 @@ export interface Author extends Ids, Images, Content, Taxonomies, Statistics, Ex
   stats?: {
     [prop: string]: any;
   };
+  locale?: string;
+  origin?: string;
   // Taxonomies
   // Statistics
   keywords?: string;

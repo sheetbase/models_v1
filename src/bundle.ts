@@ -13,6 +13,8 @@ extends Ids, Authors, Images, Content, Relationships, Taxonomies, Statistics, Ex
   description?: string;
   // Content
   count?: number;
+  locale?: string;
+  origin?: string;
   // Relationships
   // Taxonomies
   // Statistics

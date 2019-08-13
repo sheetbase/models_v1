@@ -6,5 +6,7 @@ export interface Promotion extends Ids, Extras {
   type?: string;
   content?: string;
   value: number;
+  locale?: string;
+  origin?: string;
   // Extras
 }
