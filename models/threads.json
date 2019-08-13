@@ -13,7 +13,7 @@
     { "name": "parent", "width": 300 },
     { "name": "master", "width": 300 },
     { "name": "type" },
-    { "name": "rating", "width": 300 },
+    { "name": "stars" },
     { "name": "content", "width": 500 },
     { "name": "meta", "width": 500 }
   ]

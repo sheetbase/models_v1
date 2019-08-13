@@ -16,12 +16,6 @@ export interface Images {
   image?: string;
 }
 
-export interface Statistics {
-  viewCount?: number;
-  likeCount?: number;
-  commentCount?: number;
-}
-
 export interface Taxonomies {
   // Cat 1, Cat 2
   // { cat-1: ..., cat-2: ... }
@@ -33,6 +27,19 @@ export interface Taxonomies {
   tags?: string | {
     [$key: string]: any;
   };
+}
+
+export interface Rating {
+  rating?: {
+    count: number; // number of rating
+    total: number; // number of stars
+  };
+}
+
+export interface Statistics {
+  viewCount?: number;
+  likeCount?: number;
+  commentCount?: number;
 }
 
 export interface Extras {

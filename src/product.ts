@@ -1,6 +1,5 @@
-import { Ids, Authors, Images, Taxonomies, Statistics, Extras } from './_shared';
+import { Ids, Authors, Images, Taxonomies, Rating, Statistics, Extras } from './_shared';
 import { Post } from './post';
-import { ThreadRating } from './thread';
 
 export interface ProductOption {
   title?: string;
@@ -26,7 +25,7 @@ export interface ProductVariant {
   stockCount?: number;
 }
 
-export interface Product extends Ids, Authors, Images, Taxonomies, Statistics, Extras {
+export interface Product extends Ids, Authors, Images, Taxonomies, Rating, Statistics, Extras {
   // Ids
 
   title: string;
@@ -67,7 +66,6 @@ export interface Product extends Ids, Authors, Images, Taxonomies, Statistics, E
   };
   promotion?: string;
   warranty?: string;
-  rating?: ThreadRating;
   parents?: {
     [$key: string]: any;
   };
@@ -76,6 +74,7 @@ export interface Product extends Ids, Authors, Images, Taxonomies, Statistics, E
   };
   keywords?: string;
   // Taxonomies
+  // Rating
   // Statistics
   // Extras
 }
