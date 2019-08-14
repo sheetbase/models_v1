@@ -12,6 +12,37 @@ export interface UserProfileSettings {
   [key: string]: any;
 }
 
+export interface User extends UserInfo, UserSecret {
+  '#'?: number;
+  // UserInfo
+  // UserSecret
+}
+
+export interface UserInfo extends UserProfile {
+  username?: string;
+  emailVerified?: boolean;
+  lastLogin?: string;
+  providerId?: UserProviderId;
+  settings?: UserProfileSettings;
+  // dynamic
+  isNewUser?: boolean;
+  isAnonymous?: boolean;
+  // UserProfile
+}
+
+export interface UserProfile extends UserEditableProfile {
+  uid?: string;
+  type?: string;
+  status?: string;
+  createdAt?: string;
+  email?: string;
+  phoneNumber?: number | string;
+  claims?: {
+    [key: string]: any;
+  };
+  // UserEditableProfile
+}
+
 export interface UserEditableProfile {
   displayName?: string;
   photoURL?: string;
@@ -23,31 +54,6 @@ export interface UserEditableProfile {
   additionalData?: any;
 }
 
-export interface UserProfile extends UserEditableProfile {
-  // UserEditableProfile
-  uid?: string;
-  type?: string;
-  status?: string;
-  createdAt?: string;
-  email?: string;
-  phoneNumber?: number | string;
-  claims?: {
-    [key: string]: any;
-  };
-}
-
-export interface UserInfo extends UserProfile {
-  // UserProfile
-  username?: string;
-  emailVerified?: boolean;
-  lastLogin?: string;
-  providerId?: UserProviderId;
-  settings?: UserProfileSettings;
-  // dynamic
-  isNewUser?: boolean;
-  isAnonymous?: boolean;
-}
-
 export interface UserSecret {
   password?: string;
   refreshToken?: string;
@@ -55,11 +61,4 @@ export interface UserSecret {
   oobCode?: string;
   oobMode?: UserOobMode;
   oobTimestamp?: number;
-}
-
-export interface User extends UserInfo, UserSecret {
-  '#'?: number;
-  uid: string;
-  // UserInfo
-  // UserSecret
 }

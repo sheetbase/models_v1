@@ -18,7 +18,7 @@ export interface ProductOptionItem {
 
 export interface ProductVariant extends Images {
   title: string; // Product 1 (XL, Blue)
-  sku: string; // product SKU + options ids: P001-XL-B (Product 1, XL, Blue)
+  sku: string; // product SKU + options ids: P001-XL-B
   price?: number;
   discounted?: number;
   upc?: number | string;
