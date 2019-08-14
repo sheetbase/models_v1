@@ -1,4 +1,4 @@
-import { Ids, Extras } from './_shared';
+import { Ids, Status, Extras } from './_shared';
 
 export interface OrderProduct {
   _id: string;
@@ -17,21 +17,21 @@ export interface OrderItem {
 
 export interface OrderDiscount {
   title: string;
-  value: number;
+  value: number; // positive only
 }
 
 export interface OrderAdjustment {
   at: string;
   reason: string;
-  value: number;
+  value: number; // positive or nagative
 }
 
-export interface Order extends Ids, Extras {
+export interface Order extends Ids, Status, Extras {
   // Ids
-  title?: string;
   type?: string;
-  status?: 'archived' | 'new' | 'confirmed' | 'delivering' | 'done' | 'cancelled';
+  // Status
   createdAt?: string;
+  stage?: 'new' | 'confirmed' | 'delivering' | 'done' | 'cancelled';
   items: {
     [key: string]: OrderItem;
   };

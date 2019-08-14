@@ -1,19 +1,22 @@
 import {
-  Ids, Authors, Images, Content, Parents, Relationships, Taxonomies, Rating, Statistics, Extras,
+  Ids, Status, Authors, Images, Content, Parents, Relationships, Taxonomies, Rating, Statistics, Extras,
 } from './_shared';
 
 export interface Post
-extends Ids, Authors, Images, Content, Parents, Relationships, Taxonomies, Rating, Statistics, Extras {
+extends Ids, Status, Authors, Images, Content,
+Parents, Relationships, Taxonomies, Rating, Statistics, Extras {
   // Ids
-  title: string;
   type?: string;
-  status?: 'draft' | 'archived' | 'published';
+  // Status
   createdAt?: string;
   updatedAt?: string;
   // Authors
   // Images
   excerpt?: string;
   // Content
+  slides?: {
+    [slide: string]: Post;
+  };
   duration?: number;
   locale?: string;
   origin?: string;

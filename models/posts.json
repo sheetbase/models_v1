@@ -15,6 +15,7 @@
     { "name": "excerpt", "width": 300 },
     { "name": "contentSource", "width": 300 },
     { "name": "content", "width": 500 },
+    { "name": "slides", "width": 300 },
     { "name": "duration" },
     { "name": "locale" },
     { "name": "origin" },

@@ -1,10 +1,9 @@
-import { Ids, Statistics, Extras } from './_shared';
+import { Ids, Status, Statistics, Extras } from './_shared';
 
-export interface Thread extends Ids, Statistics, Extras {
+export interface Thread extends Ids, Status, Statistics, Extras {
   // Ids
-  title?: string;
   type?: string;
-  status?: string;
+  // Status
   createdAt?: string;
   content: string;
   parent?: string;

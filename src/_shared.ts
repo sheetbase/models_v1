@@ -1,10 +1,17 @@
 export interface Ids {
   '#'?: number;
+  title?: string;
   $key?: string;
+}
+
+export interface Status {
+  // blank = 'draft'
+  status?: 'draft' | 'published' | 'archived';
 }
 
 export interface Authors {
   // John Doe
+  // John Doe, Another John
   // { author-1: ..., author-2: ... }
   authors?: string | {
     [$key: string]: any;
@@ -36,11 +43,13 @@ export interface Relationships {
 }
 
 export interface Taxonomies {
+  // Cat 1
   // Cat 1, Cat 2
   // { cat-1: ..., cat-2: ... }
   categories?: string | {
     [$key: string]: any;
   };
+  // Tag 1
   // Tag 1, Tag 2
   // { tag-1: ..., tag-2: ... }
   tags?: string | {

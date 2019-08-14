@@ -1,19 +1,19 @@
 import {
-  Ids, Authors, Images, Content, Parents, Relationships, Taxonomies, Rating, Statistics, Extras,
+  Ids, Status, Authors, Images, Content, Parents, Relationships, Taxonomies, Rating, Statistics, Extras,
 } from './_shared';
 
 export interface Audio
-extends Ids, Authors, Images, Content, Parents, Relationships, Taxonomies, Rating, Statistics, Extras {
+extends Ids, Status, Authors, Images, Content,
+Parents, Relationships, Taxonomies, Rating, Statistics, Extras {
   // Ids
-  title: string;
   type?: string;
-  status?: string;
+  // Status
   createdAt?: string;
   // Authors
   // Images
   description?: string;
   // Content
-  src: string | {
+  src?: string | {
     [type: string]: any; // { mp3: ..., webm: ... }
   };
   sheet?: string | {

@@ -14,7 +14,7 @@
     { "name": "description", "width": 300 },
     { "name": "contentSource", "width": 300 },
     { "name": "content", "width": 500 },
-    { "name": "slideshow", "width": 300 },
+    { "name": "slides", "width": 300 },
     { "name": "sku" },
     { "name": "unit" },
     { "name": "price" },

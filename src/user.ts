@@ -7,7 +7,6 @@ export interface UserProfileSettings {
   $phoneNumber?: boolean;
   $addresses?: boolean;
   $type?: boolean;
-  $status?: boolean;
   // for additionalData
   [key: string]: any;
 }
@@ -33,7 +32,6 @@ export interface UserInfo extends UserProfile {
 export interface UserProfile extends UserEditableProfile {
   uid?: string;
   type?: string;
-  status?: string;
   createdAt?: string;
   email?: string;
   phoneNumber?: number | string;

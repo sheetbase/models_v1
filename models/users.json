@@ -5,7 +5,6 @@
     { "name": "displayName", "width": 300 },
     { "name": "uid", "width": 300 },
     { "name": "type" },
-    { "name": "status" },
     { "name": "createdAt" },
     { "name": "lastLogin" },
     { "name": "providerId" },

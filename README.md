@@ -119,7 +119,7 @@ Sheet fields are sorted by groups.
 - Ids: `#`, `$key`
 - `title`
 - `type`
-- `status`
+- Status: `status`
 - `createdAt`, `updatedAt`
 - `authors`
 - Images: `thumbnail`, `image`

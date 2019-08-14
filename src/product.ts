@@ -1,5 +1,5 @@
 import {
-  Ids, Authors, Images, Content, Parents, Relationships, Taxonomies, Rating, Statistics, Extras,
+  Ids, Status, Authors, Images, Content, Parents, Relationships, Taxonomies, Rating, Statistics, Extras,
 } from './_shared';
 import { Post } from './post';
 
@@ -13,7 +13,7 @@ export interface ProductOption {
 export interface ProductOptionItem {
   title: string;
   content?: any; // color code, ...
-  offset?: number; // original price + this
+  offset?: number; // positive or nagative, original price + this
 }
 
 export interface ProductVariant extends Images {
@@ -28,17 +28,17 @@ export interface ProductVariant extends Images {
 }
 
 export interface Product
-extends Ids, Authors, Images, Content, Parents, Relationships, Taxonomies, Rating, Statistics, Extras {
+extends Ids, Status, Authors, Images, Content,
+Parents, Relationships, Taxonomies, Rating, Statistics, Extras {
   // Ids
-  title: string;
   type?: string;
-  status?: 'draft' | 'archived' | 'instock' | 'outstock';
+  // Status
   createdAt?: string;
   // Authors
   // Images
   description?: string;
   // Content
-  slideshow?: {
+  slides?: {
     [slide: string]: Post;
   };
   sku: string;
