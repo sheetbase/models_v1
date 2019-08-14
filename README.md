@@ -116,8 +116,7 @@ const post: Post = {};
 
 Sheet fields are sorted by groups.
 
-- Ids: `#`, `$key`
-- `title`
+- Ids: `#`, `title`, `$key`
 - `type`
 - Status: `status`
 - `createdAt`, `updatedAt`
