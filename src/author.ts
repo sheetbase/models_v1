@@ -4,6 +4,7 @@ export interface Author extends Ids, Images, Content, Taxonomies, Statistics, Ex
   // Ids
   title: string;
   type?: string;
+  status?: string;
   createdAt?: string;
   // Images
   description?: string;

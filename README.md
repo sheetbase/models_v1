@@ -92,6 +92,11 @@ const post: Post = {};
 - [Schema](https://github.com/sheetbase/models/blob/master/models/authors.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/author.ts)
 
+### Options `118` :earth_asia:
+
+- [Schema](https://github.com/sheetbase/models/blob/master/models/options.json)
+- [Types](https://github.com/sheetbase/models/blob/master/src/option.ts)
+
 ## Field order
 
 Sheet fields are sorted by groups.
@@ -99,6 +104,7 @@ Sheet fields are sorted by groups.
 - Ids: `#`, `$key`
 - `title`
 - `type`
+- `status`
 - `createdAt`, `updatedAt`
 - `authors`
 - Images: `thumbnail`, `image`

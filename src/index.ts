@@ -3,6 +3,7 @@ export * from './author';
 export * from './bundle';
 export * from './category';
 export * from './notification';
+export * from './option';
 export * from './order';
 export * from './page';
 export * from './post';

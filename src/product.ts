@@ -32,6 +32,7 @@ extends Ids, Authors, Images, Content, Parents, Relationships, Taxonomies, Ratin
   // Ids
   title: string;
   type?: string;
+  status?: 'draft' | 'archived' | 'instock' | 'outstock';
   createdAt?: string;
   // Authors
   // Images
@@ -55,7 +56,6 @@ extends Ids, Authors, Images, Content, Parents, Relationships, Taxonomies, Ratin
     dimensions?: string;
     [prop: string]: any;
   };
-  status?: 'instock' | 'outstock' | 'archived';
   stockCount?: number;
   soldCount?: number;
   options?: {

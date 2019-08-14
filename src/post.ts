@@ -7,6 +7,7 @@ extends Ids, Authors, Images, Content, Parents, Relationships, Taxonomies, Stati
   // Ids
   title: string;
   type?: string;
+  status?: 'draft' | 'archived' | 'published';
   createdAt?: string;
   updatedAt?: string;
   // Authors
@@ -14,7 +15,6 @@ extends Ids, Authors, Images, Content, Parents, Relationships, Taxonomies, Stati
   excerpt?: string;
   // Content
   duration?: number;
-  status?: 'draft' | 'published' | 'archived';
   locale?: string;
   origin?: string;
   // Parents

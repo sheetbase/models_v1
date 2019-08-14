@@ -2,10 +2,12 @@
   "gid": 108,
   "schema": [
     { "name": "#", "width": 50 },
+    { "name": "title", "width": 300 },
     { "name": "$key", "width": 300 },
+    { "name": "type" },
+    { "name": "status" },
     { "name": "createdAt" },
     { "name": "items", "width": 500 },
-    { "name": "status" },
     { "name": "count" },
     { "name": "total" },
     { "name": "subtotal" },

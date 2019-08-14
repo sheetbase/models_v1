@@ -5,7 +5,9 @@ export interface UserProfileSettings {
   // prefix by $ means public
   $email?: boolean;
   $phoneNumber?: boolean;
-  $address?: boolean;
+  $addresses?: boolean;
+  $type?: boolean;
+  $status?: boolean;
   // for additionalData
   [key: string]: any;
 }
@@ -15,13 +17,17 @@ export interface UserEditableProfile {
   photoURL?: string;
   bio?: string;
   url?: string;
-  address?: string;
+  addresses?: string | {
+    [name: string]: any;
+  };
   additionalData?: any;
 }
 
 export interface UserProfile extends UserEditableProfile {
   // UserEditableProfile
   uid?: string;
+  type?: string;
+  status?: string;
   createdAt?: string;
   email?: string;
   phoneNumber?: number | string;

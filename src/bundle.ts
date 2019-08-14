@@ -7,6 +7,7 @@ extends Ids, Authors, Images, Content, Relationships, Taxonomies, Statistics, Ex
   // Ids
   title: string;
   type?: string;
+  status?: string;
   createdAt?: string;
   // Authors
   // Images

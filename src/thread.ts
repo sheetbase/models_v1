@@ -4,6 +4,7 @@ export interface Thread extends Ids, Statistics, Extras {
   // Ids
   title?: string;
   type?: string;
+  status?: string;
   createdAt?: string;
   content: string;
   parent?: string;

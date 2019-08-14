@@ -28,11 +28,13 @@ export interface OrderAdjustment {
 
 export interface Order extends Ids, Extras {
   // Ids
+  title?: string;
+  type?: string;
+  status?: 'archived' | 'new' | 'confirmed' | 'delivering' | 'done' | 'cancelled';
   createdAt?: string;
   items: {
     [key: string]: OrderItem;
   };
-  status: 'new' | 'confirmed' | 'delivering' | 'done' | 'cancelled' | 'archived';
   count?: number;
   total?: number;
   subtotal?: number;

@@ -6,6 +6,7 @@
     { "name": "title", "width": 300 },
     { "name": "$key", "width": 300 },
     { "name": "type" },
+    { "name": "status" },
     { "name": "createdAt" },
     { "name": "authors", "width": 300 },
     { "name": "thumbnail", "width": 300 },
