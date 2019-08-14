@@ -47,7 +47,7 @@ const post: Post = {};
 - [Schema](https://github.com/sheetbase/models/blob/master/models/threads.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/thread.ts)
 
-### Users `106`
+### Users `106` :x:
 
 - [Schema](https://github.com/sheetbase/models/blob/master/models/users.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/user.ts)
@@ -57,7 +57,7 @@ const post: Post = {};
 - [Schema](https://github.com/sheetbase/models/blob/master/models/products.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/product.ts)
 
-### Orders `108`
+### Orders `108` :x:
 
 - [Schema](https://github.com/sheetbase/models/blob/master/models/orders.json)
 - [Types](https://github.com/sheetbase/models/blob/master/src/order.ts)
