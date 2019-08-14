@@ -20,6 +20,7 @@
     { "name": "relationships", "width": 300 },
     { "name": "categories", "width": 300 },
     { "name": "tags", "width": 300 },
+    { "name": "rating", "width": 300 },
     { "name": "viewCount" },
     { "name": "likeCount" },
     { "name": "commentCount" },

@@ -109,7 +109,7 @@ Sheet fields are sorted by groups.
 - `authors`
 - Images: `thumbnail`, `image`
 - Content: `description` | `excerpt`, `contentSource`, `content`
-- (Custom properties)
+- (Specific properties)
 - `locale`
 - `origin`
 - `parents`

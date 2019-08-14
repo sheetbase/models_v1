@@ -1,9 +1,9 @@
 import {
-  Ids, Authors, Images, Content, Parents, Relationships, Taxonomies, Statistics, Extras,
+  Ids, Authors, Images, Content, Parents, Relationships, Taxonomies, Rating, Statistics, Extras,
 } from './_shared';
 
 export interface Audio
-extends Ids, Authors, Images, Content, Parents, Relationships, Taxonomies, Statistics, Extras {
+extends Ids, Authors, Images, Content, Parents, Relationships, Taxonomies, Rating, Statistics, Extras {
   // Ids
   title: string;
   type?: string;
@@ -32,6 +32,7 @@ extends Ids, Authors, Images, Content, Parents, Relationships, Taxonomies, Stati
     [$key: string]: any;
   };
   // Taxonomies
+  // Rating
   // Statistics
   keywords?: string;
   // Extras

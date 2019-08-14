@@ -1,6 +1,6 @@
-import { Ids, Images, Content, Taxonomies, Statistics, Extras } from './_shared';
+import { Ids, Images, Content, Taxonomies, Rating, Statistics, Extras } from './_shared';
 
-export interface Author extends Ids, Images, Content, Taxonomies, Statistics, Extras {
+export interface Author extends Ids, Images, Content, Taxonomies, Rating, Statistics, Extras {
   // Ids
   title: string;
   type?: string;
@@ -18,6 +18,7 @@ export interface Author extends Ids, Images, Content, Taxonomies, Statistics, Ex
   locale?: string;
   origin?: string;
   // Taxonomies
+  // Rating
   // Statistics
   keywords?: string;
   // Extras

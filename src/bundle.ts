@@ -1,9 +1,9 @@
 import {
-  Ids, Authors, Images, Content, Relationships, Taxonomies, Statistics, Extras,
+  Ids, Authors, Images, Content, Relationships, Taxonomies, Rating, Statistics, Extras,
 } from './_shared';
 
 export interface Bundle
-extends Ids, Authors, Images, Content, Relationships, Taxonomies, Statistics, Extras {
+extends Ids, Authors, Images, Content, Relationships, Taxonomies, Rating, Statistics, Extras {
   // Ids
   title: string;
   type?: string;
@@ -18,6 +18,7 @@ extends Ids, Authors, Images, Content, Relationships, Taxonomies, Statistics, Ex
   origin?: string;
   // Relationships
   // Taxonomies
+  // Rating
   // Statistics
   keywords?: string;
   // Extras
