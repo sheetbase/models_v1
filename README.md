@@ -8,7 +8,7 @@ Commonly used sheet structures for using Google Spreadsheet with Sheetbase backe
 
 <!-- </block:header> -->
 
-## Types
+## Install & usage
 
 `npm install --save @sheetbase/models`
 
@@ -24,78 +24,93 @@ const post: Post = {};
 
 ### Categories `101` :earth_asia:
 
-- [Schema](https://github.com/sheetbase/models/blob/master/models/categories.json)
-- [Types](https://github.com/sheetbase/models/blob/master/src/category.ts)
+`sheetbase db create categories`
+
+[Schema](https://github.com/sheetbase/models/blob/master/models/categories.json) | [Type](https://github.com/sheetbase/models/blob/master/src/category.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/categories.ts)
 
 ### Tags `102` :earth_asia:
 
-- [Schema](https://github.com/sheetbase/models/blob/master/models/tags.json)
-- [Types](https://github.com/sheetbase/models/blob/master/src/tag.ts)
+`sheetbase db create tags`
+
+[Schema](https://github.com/sheetbase/models/blob/master/models/tags.json) | [Type](https://github.com/sheetbase/models/blob/master/src/tag.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/tags.ts)
 
 ### Pages `103` :earth_asia:
 
-- [Schema](https://github.com/sheetbase/models/blob/master/models/pages.json)
-- [Types](https://github.com/sheetbase/models/blob/master/src/page.ts)
+`sheetbase db create pages`
+
+[Schema](https://github.com/sheetbase/models/blob/master/models/pages.json) | [Type](https://github.com/sheetbase/models/blob/master/src/page.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/pages.ts)
 
 ### Posts `104` :earth_asia:
 
-- [Schema](https://github.com/sheetbase/models/blob/master/models/posts.json)
-- [Types](https://github.com/sheetbase/models/blob/master/src/post.ts)
+`sheetbase db create posts`
+
+[Schema](https://github.com/sheetbase/models/blob/master/models/posts.json) | [Type](https://github.com/sheetbase/models/blob/master/src/post.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/posts.ts)
 
 ### Threads `105` :earth_asia:
 
-- [Schema](https://github.com/sheetbase/models/blob/master/models/threads.json)
-- [Types](https://github.com/sheetbase/models/blob/master/src/thread.ts)
+`sheetbase db create threads`
+
+[Schema](https://github.com/sheetbase/models/blob/master/models/threads.json) | [Type](https://github.com/sheetbase/models/blob/master/src/thread.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/threads.ts)
 
 ### Users `106` :x:
 
-- [Schema](https://github.com/sheetbase/models/blob/master/models/users.json)
-- [Types](https://github.com/sheetbase/models/blob/master/src/user.ts)
+`sheetbase db create users`
+
+[Schema](https://github.com/sheetbase/models/blob/master/models/users.json) | [Type](https://github.com/sheetbase/models/blob/master/src/user.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/users.ts)
 
 ### Products `107` :earth_asia:
 
-- [Schema](https://github.com/sheetbase/models/blob/master/models/products.json)
-- [Types](https://github.com/sheetbase/models/blob/master/src/product.ts)
+`sheetbase db create products`
+
+[Schema](https://github.com/sheetbase/models/blob/master/models/products.json) | [Type](https://github.com/sheetbase/models/blob/master/src/product.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/products.ts)
 
 ### Orders `108` :x:
 
-- [Schema](https://github.com/sheetbase/models/blob/master/models/orders.json)
-- [Types](https://github.com/sheetbase/models/blob/master/src/order.ts)
+`sheetbase db create orders`
+
+[Schema](https://github.com/sheetbase/models/blob/master/models/orders.json) | [Type](https://github.com/sheetbase/models/blob/master/src/order.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/orders.ts)
 
 ### Notifications `112` :earth_asia:
 
-- [Schema](https://github.com/sheetbase/models/blob/master/models/notifications.json)
-- [Types](https://github.com/sheetbase/models/blob/master/src/notification.ts)
+`sheetbase db create notifications`
+
+[Schema](https://github.com/sheetbase/models/blob/master/models/notifications.json) | [Type](https://github.com/sheetbase/models/blob/master/src/notification.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/notifications.ts)
 
 ### Promotions `113` :earth_asia:
 
-- [Schema](https://github.com/sheetbase/models/blob/master/models/promotions.json)
-- [Types](https://github.com/sheetbase/models/blob/master/src/promotion.ts)
+`sheetbase db create promotions`
+
+[Schema](https://github.com/sheetbase/models/blob/master/models/promotions.json) | [Type](https://github.com/sheetbase/models/blob/master/src/promotion.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/promotions.ts)
 
 ### Audios `114` :earth_asia:
 
-- [Schema](https://github.com/sheetbase/models/blob/master/models/audios.json)
-- [Types](https://github.com/sheetbase/models/blob/master/src/audio.ts)
+`sheetbase db create audios`
+
+[Schema](https://github.com/sheetbase/models/blob/master/models/audios.json) | [Type](https://github.com/sheetbase/models/blob/master/src/audio.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/audios.ts)
 
 ### Videos `115` :earth_asia:
 
-- [Schema](https://github.com/sheetbase/models/blob/master/models/videos.json)
-- [Types](https://github.com/sheetbase/models/blob/master/src/video.ts)
+`sheetbase db create videos`
+
+[Schema](https://github.com/sheetbase/models/blob/master/models/videos.json) | [Type](https://github.com/sheetbase/models/blob/master/src/video.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/videos.ts)
 
 ### Bundles `116` :earth_asia:
 
-- [Schema](https://github.com/sheetbase/models/blob/master/models/bundles.json)
-- [Types](https://github.com/sheetbase/models/blob/master/src/bundle.ts)
+`sheetbase db create bundles`
+
+[Schema](https://github.com/sheetbase/models/blob/master/models/bundles.json) | [Type](https://github.com/sheetbase/models/blob/master/src/bundle.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/bundles.ts)
 
 ### Authors `117` :earth_asia:
 
-- [Schema](https://github.com/sheetbase/models/blob/master/models/authors.json)
-- [Types](https://github.com/sheetbase/models/blob/master/src/author.ts)
+`sheetbase db create authors`
+
+[Schema](https://github.com/sheetbase/models/blob/master/models/authors.json) | [Type](https://github.com/sheetbase/models/blob/master/src/author.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/authors.ts)
 
 ### Options `118` :earth_asia:
 
-- [Schema](https://github.com/sheetbase/models/blob/master/models/options.json)
-- [Types](https://github.com/sheetbase/models/blob/master/src/option.ts)
+`sheetbase db create options`
+
+[Schema](https://github.com/sheetbase/models/blob/master/models/options.json) | [Type](https://github.com/sheetbase/models/blob/master/src/option.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/options.ts)
 
 ## Field order
 
