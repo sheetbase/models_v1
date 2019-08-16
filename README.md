@@ -54,7 +54,7 @@ const post: Post = {};
 
 ### Users `106` :x:
 
-[Schema](https://github.com/sheetbase/models/blob/master/models/users.json) | [Type](https://github.com/sheetbase/models/blob/master/src/user.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/users.json)
+[Schema](https://github.com/sheetbase/models/blob/master/models/users.json) | [Type](https://github.com/sheetbase/models/blob/master/src/user.ts)
 
 `sheetbase db create users`
 
@@ -66,7 +66,7 @@ const post: Post = {};
 
 ### Orders `108` :x:
 
-[Schema](https://github.com/sheetbase/models/blob/master/models/orders.json) | [Type](https://github.com/sheetbase/models/blob/master/src/order.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/orders.json)
+[Schema](https://github.com/sheetbase/models/blob/master/models/orders.json) | [Type](https://github.com/sheetbase/models/blob/master/src/order.ts)
 
 `sheetbase db create orders`
 
@@ -111,6 +111,12 @@ const post: Post = {};
 [Schema](https://github.com/sheetbase/models/blob/master/models/options.json) | [Type](https://github.com/sheetbase/models/blob/master/src/option.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/options.json)
 
 `sheetbase db create options`
+
+### Properties `119` :x:
+
+[Schema](https://github.com/sheetbase/models/blob/master/models/properties.json) | [Type](https://github.com/sheetbase/models/blob/master/src/property.ts)
+
+`sheetbase db create properties`
 
 ## Field order
 

@@ -9,6 +9,7 @@ export * from './page';
 export * from './post';
 export * from './product';
 export * from './promotion';
+export * from './property';
 export * from './tag';
 export * from './thread';
 export * from './user';
