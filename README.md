@@ -46,7 +46,7 @@ const post: Post = {};
 
 `sheetbase db create posts`
 
-### :green_heart: Author `105` :earth_asia:
+### :blue_heart: Author `105` :earth_asia:
 
 [Schema](https://github.com/sheetbase/models/blob/master/models/authors.json) | [Type](https://github.com/sheetbase/models/blob/master/src/author.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/authors.json)
 
