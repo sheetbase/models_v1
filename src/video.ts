@@ -1,10 +1,11 @@
 import {
-  Ids, Status, Authors, Images, Content, Parents, Relationships, Taxonomies, Rating, Statistics, Extras,
+  Ids, Status, Authors, Images, Content,
+  Parents, Relationships, Taxonomies, Rating, Sharing, Statistics, Extras,
 } from './_shared';
 
 export interface Video
 extends Ids, Status, Authors, Images, Content,
-Parents, Relationships, Taxonomies, Rating, Statistics, Extras {
+Parents, Relationships, Taxonomies, Rating, Sharing, Statistics, Extras {
   // Ids
   type?: string;
   // Status
@@ -27,6 +28,7 @@ Parents, Relationships, Taxonomies, Rating, Statistics, Extras {
   // Relationships
   // Taxonomies
   // Rating
+  // Sharing
   // Statistics
   keywords?: string;
   // Extras

@@ -64,6 +64,13 @@ export interface Rating {
   };
 }
 
+export interface Sharing {
+  sharing?: {
+    total: number; // all shared
+    [provider: string]: number;
+  };
+}
+
 export interface Statistics {
   viewCount?: number;
   likeCount?: number;

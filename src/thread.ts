@@ -1,6 +1,6 @@
-import { Ids, Status, Statistics, Extras } from './_shared';
+import { Ids, Status, Rating, Sharing, Statistics, Extras } from './_shared';
 
-export interface Thread extends Ids, Status, Statistics, Extras {
+export interface Thread extends Ids, Status, Rating, Sharing, Statistics, Extras {
   // Ids
   type?: string;
   // Status
@@ -13,6 +13,8 @@ export interface Thread extends Ids, Status, Statistics, Extras {
   email?: string;
   displayName?: string;
   phoneNumber?: number | string;
+  // Rating
+  // Sharing
   // Statistics
   // Extras
 }
