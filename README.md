@@ -22,97 +22,97 @@ const post: Post = {};
 
 ## Models
 
-### :blue_heart: Categories `101` :earth_asia:
+### :blue_heart: Category `101` :earth_asia:
 
 [Schema](https://github.com/sheetbase/models/blob/master/models/categories.json) | [Type](https://github.com/sheetbase/models/blob/master/src/category.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/categories.json)
 
 `sheetbase db create categories`
 
-### :blue_heart: Tags `102` :earth_asia:
+### :blue_heart: Tag `102` :earth_asia:
 
 [Schema](https://github.com/sheetbase/models/blob/master/models/tags.json) | [Type](https://github.com/sheetbase/models/blob/master/src/tag.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/tags.json)
 
 `sheetbase db create tags`
 
-### :blue_heart: Pages `103` :earth_asia:
+### :blue_heart: Page `103` :earth_asia:
 
 [Schema](https://github.com/sheetbase/models/blob/master/models/pages.json) | [Type](https://github.com/sheetbase/models/blob/master/src/page.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/pages.json)
 
 `sheetbase db create pages`
 
-### :blue_heart: Posts `104` :earth_asia:
+### :blue_heart: Post `104` :earth_asia:
 
 [Schema](https://github.com/sheetbase/models/blob/master/models/posts.json) | [Type](https://github.com/sheetbase/models/blob/master/src/post.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/posts.json)
 
 `sheetbase db create posts`
 
-### :blue_heart: Threads `105` :earth_asia:
-
-[Schema](https://github.com/sheetbase/models/blob/master/models/threads.json) | [Type](https://github.com/sheetbase/models/blob/master/src/thread.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/threads.json)
-
-`sheetbase db create threads`
-
-### :blue_heart: Users `106` :x:
-
-[Schema](https://github.com/sheetbase/models/blob/master/models/users.json) | [Type](https://github.com/sheetbase/models/blob/master/src/user.ts)
-
-`sheetbase db create users`
-
-### :blue_heart: Options `107` :earth_asia:
-
-[Schema](https://github.com/sheetbase/models/blob/master/models/options.json) | [Type](https://github.com/sheetbase/models/blob/master/src/option.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/options.json)
-
-`sheetbase db create options`
-
-### :green_heart: Authors `111` :earth_asia:
+### :green_heart: Author `105` :earth_asia:
 
 [Schema](https://github.com/sheetbase/models/blob/master/models/authors.json) | [Type](https://github.com/sheetbase/models/blob/master/src/author.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/authors.json)
 
 `sheetbase db create authors`
 
-### :green_heart: Bundles `112` :earth_asia:
+### :blue_heart: Thread `106` :earth_asia:
+
+[Schema](https://github.com/sheetbase/models/blob/master/models/threads.json) | [Type](https://github.com/sheetbase/models/blob/master/src/thread.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/threads.json)
+
+`sheetbase db create threads`
+
+### :blue_heart: User `107` :x:
+
+[Schema](https://github.com/sheetbase/models/blob/master/models/users.json) | [Type](https://github.com/sheetbase/models/blob/master/src/user.ts)
+
+`sheetbase db create users`
+
+### :blue_heart: Option `108` :earth_asia:
+
+[Schema](https://github.com/sheetbase/models/blob/master/models/options.json) | [Type](https://github.com/sheetbase/models/blob/master/src/option.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/options.json)
+
+`sheetbase db create options`
+
+### :green_heart: Bundle `111` :earth_asia:
 
 [Schema](https://github.com/sheetbase/models/blob/master/models/bundles.json) | [Type](https://github.com/sheetbase/models/blob/master/src/bundle.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/bundles.json)
 
 `sheetbase db create bundles`
 
-### :green_heart: Audios `113` :earth_asia:
+### :green_heart: Audio `112` :earth_asia:
 
 [Schema](https://github.com/sheetbase/models/blob/master/models/audios.json) | [Type](https://github.com/sheetbase/models/blob/master/src/audio.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/audios.json)
 
 `sheetbase db create audios`
 
-### :green_heart: Videos `114` :earth_asia:
+### :green_heart: Video `113` :earth_asia:
 
 [Schema](https://github.com/sheetbase/models/blob/master/models/videos.json) | [Type](https://github.com/sheetbase/models/blob/master/src/video.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/videos.json)
 
 `sheetbase db create videos`
 
-### :green_heart: Products `115` :earth_asia:
+### :green_heart: Product `114` :earth_asia:
 
 [Schema](https://github.com/sheetbase/models/blob/master/models/products.json) | [Type](https://github.com/sheetbase/models/blob/master/src/product.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/products.json)
 
 `sheetbase db create products`
 
-### :heart: Orders `161` :x:
+### :heart: Order `161` :x:
 
 [Schema](https://github.com/sheetbase/models/blob/master/models/orders.json) | [Type](https://github.com/sheetbase/models/blob/master/src/order.ts)
 
 `sheetbase db create orders`
 
-### :heart: Properties `162` :x:
+### :heart: Property `162` :x:
 
 [Schema](https://github.com/sheetbase/models/blob/master/models/properties.json) | [Type](https://github.com/sheetbase/models/blob/master/src/property.ts)
 
 `sheetbase db create properties`
 
-### :purple_heart: Notifications `181` :earth_asia:
+### :purple_heart: Notification `181` :earth_asia:
 
 [Schema](https://github.com/sheetbase/models/blob/master/models/notifications.json) | [Type](https://github.com/sheetbase/models/blob/master/src/notification.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/notifications.json)
 
 `sheetbase db create notifications`
 
-### :purple_heart: Promotions `182` :earth_asia:
+### :purple_heart: Promotion `182` :earth_asia:
 
 [Schema](https://github.com/sheetbase/models/blob/master/models/promotions.json) | [Type](https://github.com/sheetbase/models/blob/master/src/promotion.ts) | [Sample](https://github.com/sheetbase/models/blob/master/data/promotions.json)
 
@@ -175,6 +175,12 @@ A built-in model names its `gid` with 3 characters string number, prefix by `1`.
 ### Custom models
 
 You can use any string number (from 1-9 characters) for your custom models, but it should not starts with `1` for 3 characters `gid`.
+
+Suggested covention:
+
+- :green_heart: `[2-9]1x-[2-9]5x`: custom content public sheets
+- :heart: `[2-9]6x-[2-9]7x`: private sheets
+- :purple_heart: `[2-9]8x-[2-9]9x`: miscellaneous sheets
 
 ## Lisence
 
