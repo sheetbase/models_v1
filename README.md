@@ -142,7 +142,7 @@ Sheet fields are sorted by groups.
 
 ## Model
 
-Every model is defined in a .json file. File name is a plural string of a content type (categories, posts, ...) and is used as the model name.
+Every model is defined in a `.json` file. File name is a **plural** string of a content type (categories, posts, ...) and is used as the model name.
 
 ```ts
 export interface Model {
@@ -161,16 +161,16 @@ export interface ModelSchema {
 
 ## Gid
 
-A Google Sheets sheet is indentified by its `name` (categories, posts, ...) or its `gid` (a string number as can be seen in the url `#gid=0`). (@sheetbase/client)[https://github.com/sheetbase/client] uses the `gid` to request the public data accordingly.
+A Google Sheets sheet is indentified by its `name` (categories, posts, ...) or its `gid` (a string number as can be seen in the url `#gid=0`). [@sheetbase/client](https://github.com/sheetbase/client) uses the `gid` to request the public data accordingly.
 
 ### Built-in models
 
 A built-in model names its `gid` with 3 characters string number, prefix by `1`.
 
-- :blue_heart: `10x`: major tables
-- :green_heart: `11x-15x`: custom content public tables
-- :heart: `16x-17x`: private tables
-- :purple_heart: `18x-19x`: miscellaneous tables
+- :blue_heart: `10x`: major sheets
+- :green_heart: `11x-15x`: custom content public sheets
+- :heart: `16x-17x`: private sheets
+- :purple_heart: `18x-19x`: miscellaneous sheets
 
 ### Custom models
 
