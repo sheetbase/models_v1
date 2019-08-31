@@ -1,1 +1,1 @@
-[["#","title","$key","value"],["1","Option 1","option-1","This is a string."],["2","Option 2","option-2","9"],["3","Option 3","option-3","{\"a\":1,\"b\":2,\"c\":3}"]]
+[["#","title","$key","value"],["1","Option 1","option-1","This is a string."],["2","Option 2","option-2"],["3","Option 3","option-3","{\"a\":1,\"b\":2,\"c\":3}"]]
