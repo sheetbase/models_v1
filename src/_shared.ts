@@ -24,7 +24,6 @@ export interface Images {
 }
 
 export interface Content {
-  contentSource?: string;
   content?: string;
 }
 

@@ -13,7 +13,6 @@
     { "name": "thumbnail", "width": 300 },
     { "name": "image", "width": 300 },
     { "name": "excerpt", "width": 300 },
-    { "name": "contentSource", "width": 300 },
     { "name": "content", "width": 500 },
     { "name": "slides", "width": 300 },
     { "name": "duration" },

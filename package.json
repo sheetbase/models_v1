@@ -3,7 +3,7 @@
   "version": "1.7.0",
   "description": "Sheetbase commonly used models.",
   "author": "Sheetbase",
-  "homepage": "https://sheetbase.net",
+  "homepage": "https://sheetbase.dev",
   "license": "MIT",
   "files": [
     "models",
