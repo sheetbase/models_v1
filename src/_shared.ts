@@ -66,6 +66,7 @@ export interface Rating {
 export interface Sharing {
   sharing?: {
     total: number; // all shared
+    // facebook, twitter, email, sms, link, ...
     [provider: string]: number;
   };
 }

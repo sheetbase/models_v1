@@ -128,14 +128,15 @@ Sheet fields are sorted by groups.
 - `createdAt`, `updatedAt`
 - `authors`
 - Images: `thumbnail`, `image`
-- Content: `description` | `excerpt`, `contentSource`, `content`
+- Content: `description` | `excerpt`, `content`
 - (Specific properties)
 - `locale`
 - `origin`
 - `parents`
 - `relationships`
-- Taxonomies: `categories`, `tags`
+- Taxonomies: `categories`, `tags`, ...
 - Rating: `rating`
+- Sharing: `sharing`
 - Statistics: `viewCount`, `likeCount`, `commentCount`
 - `keywords`
 - Extras: `meta`
