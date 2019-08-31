@@ -35,7 +35,7 @@ export interface Parents {
 }
 
 export interface Relationships {
-  // { "posts:post-1": ... }
+  // { "posts/post-1": ... }
   relationships?: {
     [to: string]: any;
   };

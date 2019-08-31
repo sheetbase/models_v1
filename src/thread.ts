@@ -7,7 +7,7 @@ export interface Thread extends Ids, Status, Rating, Sharing, Statistics, Extras
   createdAt?: string;
   content: string;
   parent?: string;
-  master?: string; // <sheet>:<key> (posts:post-1)
+  master?: string; // <sheet>/<key> (posts/post-1)
   stars?: number; // with rating stars
   uid?: string;
   email?: string;
