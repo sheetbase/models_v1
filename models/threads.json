@@ -9,6 +9,7 @@
     { "name": "status" },
     { "name": "createdAt" },
     { "name": "content", "width": 500 },
+    { "name": "attachments", "width": 300 },
     { "name": "parent", "width": 300 },
     { "name": "master", "width": 300 },
     { "name": "stars" },
