@@ -1,10 +1,18 @@
 import { Ids, Status, Rating, Sharing, Statistics, Extras } from './_shared';
 
 export interface ThreadAttachment {
-  name: string;
-  mimeType: string;
-  size: number;
-  id?: string; // not exists for Gmail messages
+  // link attachment
+  link?: string;
+  // file attachment
+  id?: string; // Drive file id or undefined for Gmail attachments
+  name?: string;
+  mimeType?: string;
+  size?: number;
+}
+
+export interface GroupingThread {
+  parent: Thread;
+  children: Thread[];
 }
 
 export interface Thread extends Ids, Status, Rating, Sharing, Statistics, Extras {
@@ -28,3 +36,10 @@ export interface Thread extends Ids, Status, Rating, Sharing, Statistics, Extras
   // Statistics
   // Extras
 }
+
+export type ParentThread = Omit<Thread, 'parent'>;
+export interface ThreadX extends ParentThread {}
+
+export interface ChildThread extends Thread {}
+export interface MessageX extends ChildThread {}
+export interface Message extends ChildThread {}
