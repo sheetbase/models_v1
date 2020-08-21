@@ -1,0 +1,421 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>@sheetbase/models</title>
+	<meta name="description" content="Documentation for @sheetbase/models">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="assets/js/search.json" data-base=".">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="index.html" class="title">@sheetbase/models</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="globals.html">Globals</a>
+				</li>
+			</ul>
+			<h1>@sheetbase/models</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<div class="tsd-panel tsd-typography">
+				<a href="#sheetbase-models" id="sheetbase-models" style="color: inherit; text-decoration: none;">
+					<h1>Sheetbase Models</h1>
+				</a>
+				<p>Commonly used sheet structures for using Google Spreadsheet with Sheetbase backend.</p>
+				<!-- <block:header> -->
+				<p><a href="https://github.com/sheetbase/models/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="License"></a> <a href="https://www.patreon.com/lamnhan"><img src="https://lamnhan.github.io/assets/images/badges/patreon.svg" alt="Support me on Patreon"></a> <a href="https://www.paypal.me/lamnhan"><img src="https://lamnhan.github.io/assets/images/badges/paypal_donate.svg" alt="PayPal"></a> <a href="https://m.me/sheetbase"><img src="https://img.shields.io/badge/ask/me-anything-1abc9c.svg" alt="Ask me anything"></a></p>
+				<!-- </block:header> -->
+				<a href="#install-amp-usage" id="install-amp-usage" style="color: inherit; text-decoration: none;">
+					<h2>Install &amp; usage</h2>
+				</a>
+				<p><code>npm install --save @sheetbase/models</code></p>
+				<pre><code class="language-ts"><span class="hljs-keyword">import</span> { Post } <span class="hljs-keyword">from</span> <span class="hljs-string">'@sheetbase/models'</span>;
+
+<span class="hljs-keyword">const</span> posts: Post[] = [];
+<span class="hljs-keyword">const</span> post: Post = {};
+</code></pre>
+				<a href="#models" id="models" style="color: inherit; text-decoration: none;">
+					<h2>Models</h2>
+				</a>
+				<a href="#blue_heart-category-101-earth_asia" id="blue_heart-category-101-earth_asia" style="color: inherit; text-decoration: none;">
+					<h3>:blue_heart: Category <code>101</code> :earth_asia:</h3>
+				</a>
+				<p><a href="https://github.com/sheetbase/models/blob/master/models/categories.json">Schema</a> | <a href="https://github.com/sheetbase/models/blob/master/src/category.ts">Type</a> | <a href="https://github.com/sheetbase/models/blob/master/data/categories.json">Sample</a></p>
+				<p><code>sheetbase db create categories</code></p>
+				<a href="#blue_heart-tag-102-earth_asia" id="blue_heart-tag-102-earth_asia" style="color: inherit; text-decoration: none;">
+					<h3>:blue_heart: Tag <code>102</code> :earth_asia:</h3>
+				</a>
+				<p><a href="https://github.com/sheetbase/models/blob/master/models/tags.json">Schema</a> | <a href="https://github.com/sheetbase/models/blob/master/src/tag.ts">Type</a> | <a href="https://github.com/sheetbase/models/blob/master/data/tags.json">Sample</a></p>
+				<p><code>sheetbase db create tags</code></p>
+				<a href="#blue_heart-page-103-earth_asia" id="blue_heart-page-103-earth_asia" style="color: inherit; text-decoration: none;">
+					<h3>:blue_heart: Page <code>103</code> :earth_asia:</h3>
+				</a>
+				<p><a href="https://github.com/sheetbase/models/blob/master/models/pages.json">Schema</a> | <a href="https://github.com/sheetbase/models/blob/master/src/page.ts">Type</a> | <a href="https://github.com/sheetbase/models/blob/master/data/pages.json">Sample</a></p>
+				<p><code>sheetbase db create pages</code></p>
+				<a href="#blue_heart-post-104-earth_asia" id="blue_heart-post-104-earth_asia" style="color: inherit; text-decoration: none;">
+					<h3>:blue_heart: Post <code>104</code> :earth_asia:</h3>
+				</a>
+				<p><a href="https://github.com/sheetbase/models/blob/master/models/posts.json">Schema</a> | <a href="https://github.com/sheetbase/models/blob/master/src/post.ts">Type</a> | <a href="https://github.com/sheetbase/models/blob/master/data/posts.json">Sample</a></p>
+				<p><code>sheetbase db create posts</code></p>
+				<a href="#blue_heart-author-105-earth_asia" id="blue_heart-author-105-earth_asia" style="color: inherit; text-decoration: none;">
+					<h3>:blue_heart: Author <code>105</code> :earth_asia:</h3>
+				</a>
+				<p><a href="https://github.com/sheetbase/models/blob/master/models/authors.json">Schema</a> | <a href="https://github.com/sheetbase/models/blob/master/src/author.ts">Type</a> | <a href="https://github.com/sheetbase/models/blob/master/data/authors.json">Sample</a></p>
+				<p><code>sheetbase db create authors</code></p>
+				<a href="#blue_heart-thread-106-earth_asia" id="blue_heart-thread-106-earth_asia" style="color: inherit; text-decoration: none;">
+					<h3>:blue_heart: Thread <code>106</code> :earth_asia:</h3>
+				</a>
+				<p><a href="https://github.com/sheetbase/models/blob/master/models/threads.json">Schema</a> | <a href="https://github.com/sheetbase/models/blob/master/src/thread.ts">Type</a> | <a href="https://github.com/sheetbase/models/blob/master/data/threads.json">Sample</a></p>
+				<p><code>sheetbase db create threads</code></p>
+				<a href="#blue_heart-user-107-x" id="blue_heart-user-107-x" style="color: inherit; text-decoration: none;">
+					<h3>:blue_heart: User <code>107</code> :x:</h3>
+				</a>
+				<p><a href="https://github.com/sheetbase/models/blob/master/models/users.json">Schema</a> | <a href="https://github.com/sheetbase/models/blob/master/src/user.ts">Type</a></p>
+				<p><code>sheetbase db create users</code></p>
+				<a href="#blue_heart-option-108-earth_asia" id="blue_heart-option-108-earth_asia" style="color: inherit; text-decoration: none;">
+					<h3>:blue_heart: Option <code>108</code> :earth_asia:</h3>
+				</a>
+				<p><a href="https://github.com/sheetbase/models/blob/master/models/options.json">Schema</a> | <a href="https://github.com/sheetbase/models/blob/master/src/option.ts">Type</a> | <a href="https://github.com/sheetbase/models/blob/master/data/options.json">Sample</a></p>
+				<p><code>sheetbase db create options</code></p>
+				<a href="#green_heart-bundle-111-earth_asia" id="green_heart-bundle-111-earth_asia" style="color: inherit; text-decoration: none;">
+					<h3>:green_heart: Bundle <code>111</code> :earth_asia:</h3>
+				</a>
+				<p><a href="https://github.com/sheetbase/models/blob/master/models/bundles.json">Schema</a> | <a href="https://github.com/sheetbase/models/blob/master/src/bundle.ts">Type</a> | <a href="https://github.com/sheetbase/models/blob/master/data/bundles.json">Sample</a></p>
+				<p><code>sheetbase db create bundles</code></p>
+				<a href="#green_heart-audio-112-earth_asia" id="green_heart-audio-112-earth_asia" style="color: inherit; text-decoration: none;">
+					<h3>:green_heart: Audio <code>112</code> :earth_asia:</h3>
+				</a>
+				<p><a href="https://github.com/sheetbase/models/blob/master/models/audios.json">Schema</a> | <a href="https://github.com/sheetbase/models/blob/master/src/audio.ts">Type</a> | <a href="https://github.com/sheetbase/models/blob/master/data/audios.json">Sample</a></p>
+				<p><code>sheetbase db create audios</code></p>
+				<a href="#green_heart-video-113-earth_asia" id="green_heart-video-113-earth_asia" style="color: inherit; text-decoration: none;">
+					<h3>:green_heart: Video <code>113</code> :earth_asia:</h3>
+				</a>
+				<p><a href="https://github.com/sheetbase/models/blob/master/models/videos.json">Schema</a> | <a href="https://github.com/sheetbase/models/blob/master/src/video.ts">Type</a> | <a href="https://github.com/sheetbase/models/blob/master/data/videos.json">Sample</a></p>
+				<p><code>sheetbase db create videos</code></p>
+				<a href="#green_heart-product-114-earth_asia" id="green_heart-product-114-earth_asia" style="color: inherit; text-decoration: none;">
+					<h3>:green_heart: Product <code>114</code> :earth_asia:</h3>
+				</a>
+				<p><a href="https://github.com/sheetbase/models/blob/master/models/products.json">Schema</a> | <a href="https://github.com/sheetbase/models/blob/master/src/product.ts">Type</a> | <a href="https://github.com/sheetbase/models/blob/master/data/products.json">Sample</a></p>
+				<p><code>sheetbase db create products</code></p>
+				<a href="#heart-order-161-x" id="heart-order-161-x" style="color: inherit; text-decoration: none;">
+					<h3>:heart: Order <code>161</code> :x:</h3>
+				</a>
+				<p><a href="https://github.com/sheetbase/models/blob/master/models/orders.json">Schema</a> | <a href="https://github.com/sheetbase/models/blob/master/src/order.ts">Type</a></p>
+				<p><code>sheetbase db create orders</code></p>
+				<a href="#heart-property-162-x" id="heart-property-162-x" style="color: inherit; text-decoration: none;">
+					<h3>:heart: Property <code>162</code> :x:</h3>
+				</a>
+				<p><a href="https://github.com/sheetbase/models/blob/master/models/properties.json">Schema</a> | <a href="https://github.com/sheetbase/models/blob/master/src/property.ts">Type</a></p>
+				<p><code>sheetbase db create properties</code></p>
+				<a href="#purple_heart-notification-181-earth_asia" id="purple_heart-notification-181-earth_asia" style="color: inherit; text-decoration: none;">
+					<h3>:purple_heart: Notification <code>181</code> :earth_asia:</h3>
+				</a>
+				<p><a href="https://github.com/sheetbase/models/blob/master/models/notifications.json">Schema</a> | <a href="https://github.com/sheetbase/models/blob/master/src/notification.ts">Type</a> | <a href="https://github.com/sheetbase/models/blob/master/data/notifications.json">Sample</a></p>
+				<p><code>sheetbase db create notifications</code></p>
+				<a href="#purple_heart-promotion-182-earth_asia" id="purple_heart-promotion-182-earth_asia" style="color: inherit; text-decoration: none;">
+					<h3>:purple_heart: Promotion <code>182</code> :earth_asia:</h3>
+				</a>
+				<p><a href="https://github.com/sheetbase/models/blob/master/models/promotions.json">Schema</a> | <a href="https://github.com/sheetbase/models/blob/master/src/promotion.ts">Type</a> | <a href="https://github.com/sheetbase/models/blob/master/data/promotions.json">Sample</a></p>
+				<p><code>sheetbase db create promotions</code></p>
+				<a href="#field-order" id="field-order" style="color: inherit; text-decoration: none;">
+					<h2>Field order</h2>
+				</a>
+				<p>Sheet fields are sorted by groups.</p>
+				<ul>
+					<li>Ids: <code>#</code>, <code>title</code>, <code>$key</code></li>
+					<li><code>type</code></li>
+					<li>Status: <code>status</code></li>
+					<li><code>createdAt</code>, <code>updatedAt</code></li>
+					<li><code>authors</code></li>
+					<li>Images: <code>thumbnail</code>, <code>image</code></li>
+					<li>Content: <code>description</code> | <code>excerpt</code>, <code>content</code></li>
+					<li>(Specific properties)</li>
+					<li><code>locale</code></li>
+					<li><code>origin</code></li>
+					<li><code>parents</code></li>
+					<li><code>relationships</code></li>
+					<li>Taxonomies: <code>categories</code>, <code>tags</code>, ...</li>
+					<li>Rating: <code>rating</code></li>
+					<li>Sharing: <code>sharing</code></li>
+					<li>Statistics: <code>viewCount</code>, <code>likeCount</code>, <code>commentCount</code></li>
+					<li><code>keywords</code></li>
+					<li>Extras: <code>meta</code></li>
+				</ul>
+				<a href="#model" id="model" style="color: inherit; text-decoration: none;">
+					<h2>Model</h2>
+				</a>
+				<p>Every model is defined in a <code>.json</code> file. File name is a <strong>plural</strong> string of a content type (categories, posts, ...) and is used as the model name.</p>
+				<pre><code class="language-ts"><span class="hljs-keyword">export</span> <span class="hljs-keyword">interface</span> Model {
+  gid: <span class="hljs-built_in">string</span> | <span class="hljs-built_in">number</span>; <span class="hljs-comment">// will be corverted to string</span>
+  <span class="hljs-keyword">public</span>?: <span class="hljs-built_in">boolean</span>;
+  dataUrl?: <span class="hljs-built_in">string</span>;
+  schema: ModelSchema[];
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">interface</span> ModelSchema {
+  name: <span class="hljs-built_in">string</span>;
+  width?: <span class="hljs-built_in">number</span>;
+  note?: <span class="hljs-built_in">string</span>;
+}</code></pre>
+				<a href="#gid" id="gid" style="color: inherit; text-decoration: none;">
+					<h2>Gid</h2>
+				</a>
+				<p>A Google Sheets sheet is indentified by its <code>name</code> (categories, posts, ...) or its <code>gid</code> (a string number as can be seen in the url <code>#gid=0</code>). <a href="https://github.com/sheetbase/client">@sheetbase/client</a> uses the <code>gid</code> to request the public data accordingly.</p>
+				<a href="#built-in-models" id="built-in-models" style="color: inherit; text-decoration: none;">
+					<h3>Built-in models</h3>
+				</a>
+				<p>A built-in model names its <code>gid</code> with 3 characters string number, prefix by <code>1</code>.</p>
+				<ul>
+					<li>:blue_heart: <code>10x</code>: major sheets</li>
+					<li>:green_heart: <code>11x-15x</code>: custom content public sheets</li>
+					<li>:heart: <code>16x-17x</code>: private sheets</li>
+					<li>:purple_heart: <code>18x-19x</code>: miscellaneous sheets</li>
+				</ul>
+				<a href="#custom-models" id="custom-models" style="color: inherit; text-decoration: none;">
+					<h3>Custom models</h3>
+				</a>
+				<p>You can use any string number (from 1-9 characters) for your custom models, but it should not starts with <code>1</code> for 3 characters <code>gid</code>.</p>
+				<p>Suggested covention:</p>
+				<ul>
+					<li>:green_heart: <code>[2-9]1x-[2-9]5x</code>: custom content public sheets</li>
+					<li>:heart: <code>[2-9]6x-[2-9]7x</code>: private sheets</li>
+					<li>:purple_heart: <code>[2-9]8x-[2-9]9x</code>: miscellaneous sheets</li>
+				</ul>
+				<a href="#lisence" id="lisence" style="color: inherit; text-decoration: none;">
+					<h2>Lisence</h2>
+				</a>
+				<p>Sheetbase Models is released under the <a href="https://github.com/sheetbase/models/blob/master/LICENSE">MIT</a> license.</p>
+				<!-- <block:footer> -->
+				<!-- </block:footer> -->
+			</div>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="globals.html"><em>Globals</em></a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+					<li class=" tsd-kind-class">
+						<a href="classes/lib.html" class="tsd-kind-icon">Lib</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/audio.html" class="tsd-kind-icon">Audio</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/author.html" class="tsd-kind-icon">Author</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/authors.html" class="tsd-kind-icon">Authors</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/bundle.html" class="tsd-kind-icon">Bundle</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/category.html" class="tsd-kind-icon">Category</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/content.html" class="tsd-kind-icon">Content</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/extras.html" class="tsd-kind-icon">Extras</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/groupingthread.html" class="tsd-kind-icon">Grouping<wbr>Thread</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/ids.html" class="tsd-kind-icon">Ids</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/images.html" class="tsd-kind-icon">Images</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/notification.html" class="tsd-kind-icon">Notification</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/option.html" class="tsd-kind-icon">Option</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/order.html" class="tsd-kind-icon">Order</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/orderadjustment.html" class="tsd-kind-icon">Order<wbr>Adjustment</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/orderdiscount.html" class="tsd-kind-icon">Order<wbr>Discount</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/orderitem.html" class="tsd-kind-icon">Order<wbr>Item</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/orderproduct.html" class="tsd-kind-icon">Order<wbr>Product</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/page.html" class="tsd-kind-icon">Page</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/parents.html" class="tsd-kind-icon">Parents</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/post.html" class="tsd-kind-icon">Post</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/product.html" class="tsd-kind-icon">Product</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/productoption.html" class="tsd-kind-icon">Product<wbr>Option</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/productoptionitem.html" class="tsd-kind-icon">Product<wbr>Option<wbr>Item</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/productvariant.html" class="tsd-kind-icon">Product<wbr>Variant</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/promotion.html" class="tsd-kind-icon">Promotion</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/property.html" class="tsd-kind-icon">Property</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/rating.html" class="tsd-kind-icon">Rating</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/relationships.html" class="tsd-kind-icon">Relationships</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/sharing.html" class="tsd-kind-icon">Sharing</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/statistics.html" class="tsd-kind-icon">Statistics</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/status.html" class="tsd-kind-icon">Status</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/tag.html" class="tsd-kind-icon">Tag</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/taxonomies.html" class="tsd-kind-icon">Taxonomies</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/thread.html" class="tsd-kind-icon">Thread</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/threadattachment.html" class="tsd-kind-icon">Thread<wbr>Attachment</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/user.html" class="tsd-kind-icon">User</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/usereditableprofile.html" class="tsd-kind-icon">User<wbr>Editable<wbr>Profile</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/userinfo.html" class="tsd-kind-icon">User<wbr>Info</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/userprofile.html" class="tsd-kind-icon">User<wbr>Profile</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/userprofilesettings.html" class="tsd-kind-icon">User<wbr>Profile<wbr>Settings</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/usersecret.html" class="tsd-kind-icon">User<wbr>Secret</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/video.html" class="tsd-kind-icon">Video</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="globals.html#childthread" class="tsd-kind-icon">Child<wbr>Thread</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="globals.html#message" class="tsd-kind-icon">Message</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="globals.html#messagex" class="tsd-kind-icon">MessageX</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="globals.html#parentthread" class="tsd-kind-icon">Parent<wbr>Thread</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="globals.html#threadx" class="tsd-kind-icon">ThreadX</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="globals.html#useroobmode" class="tsd-kind-icon">User<wbr>Oob<wbr>Mode</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="globals.html#userproviderid" class="tsd-kind-icon">User<wbr>Provider<wbr>Id</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>

@@ -1,16 +1,10 @@
 {
+  "extends": "./node_modules/gts/tsconfig-google.json",
   "compilerOptions": {
-    "baseUrl": ".",
-    "moduleResolution": "node",
-    "module": "es2015",
-    "lib": [
-      "es2018"
-    ],
-    "outDir": "./dist",
-    "declaration": true,
-    "declarationDir": "./dist"
+    "rootDir": "."
   },
-  "files": [
-    "./src/index.ts"
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts"
   ]
 }

@@ -1,18 +1,26 @@
 {
   "name": "@sheetbase/models",
-  "version": "1.9.0",
+  "version": "3.0.0-beta1",
   "description": "Sheetbase commonly used models.",
   "author": "Sheetbase",
   "homepage": "https://sheetbase.dev",
   "license": "MIT",
+  "main": "src/public-api.js",
+  "types": "src/public-api.d.ts",
   "files": [
-    "models",
-    "data",
-    "dist"
+    "src",
+    "!**/*.ts",
+    "**/*.d.ts"
   ],
-  "typings": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc -p tsconfig.json"
+    "compile": "tsc",
+    "build": "npm.cmd run compile",
+    "docs": "ayedocs generate",
+    "test": "npm.cmd run compile && nyc --cache false mocha test/**/*.js",
+    "coverage": "nyc --cache false report --reporter=text-lcov | coveralls",
+    "check": "gts check",
+    "fix": "gts fix",
+    "clean": "gts clean"
   },
   "keywords": [
     "google-apps-script",
@@ -30,7 +38,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "tslint": "^5.18.0",
-    "typescript": "^3.5.3"
+    "gts": "^2.0.2",
+    "typescript": "^3.9.7"
   }
 }
