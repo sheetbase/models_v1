@@ -1,4 +1,4 @@
-import {Ids} from './_shared';
+import {Ids} from '../types';
 
 export interface Option extends Ids {
   // Ids

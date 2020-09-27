@@ -1,4 +1,4 @@
-import {Ids, Status, Images, Content, Extras} from './_shared';
+import {Ids, Status, Images, Content, Extras} from '../types';
 
 export interface Page extends Ids, Status, Images, Content, Extras {
   // Ids

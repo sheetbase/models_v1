@@ -11,7 +11,7 @@ import {
   Sharing,
   Statistics,
   Extras,
-} from './_shared';
+} from '../types';
 import {Post} from './post.schema';
 
 export interface ProductOption {

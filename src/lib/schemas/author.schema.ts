@@ -8,7 +8,7 @@ import {
   Sharing,
   Statistics,
   Extras,
-} from './_shared';
+} from '../types';
 
 export interface Author
   extends Ids,

@@ -1,4 +1,4 @@
-import {Ids, Images, Extras} from './_shared';
+import {Ids, Images, Extras} from '../types';
 
 export interface Category extends Ids, Images, Extras {
   // Ids

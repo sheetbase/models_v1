@@ -1,4 +1,4 @@
-import {Ids, Extras} from './_shared';
+import {Ids, Extras} from '../types';
 
 export interface Notification extends Ids, Extras {
   // Ids

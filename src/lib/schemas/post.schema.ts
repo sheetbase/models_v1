@@ -11,7 +11,7 @@ import {
   Sharing,
   Statistics,
   Extras,
-} from './_shared';
+} from '../types';
 
 export interface Post
   extends Ids,

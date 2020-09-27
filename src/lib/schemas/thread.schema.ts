@@ -1,4 +1,4 @@
-import {Ids, Status, Rating, Sharing, Statistics, Extras} from './_shared';
+import {Ids, Status, Rating, Sharing, Statistics, Extras} from '../types';
 
 export interface ThreadAttachment {
   // link attachment
